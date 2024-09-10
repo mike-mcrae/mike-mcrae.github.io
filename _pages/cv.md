@@ -18,7 +18,7 @@ Education
 
 Lecturing experience
 ======
-* Semester 1 2024: Undergraduate Econometrics 1 - Trinity College Dubiln
+* Semester 1 2024: Econometrics 1 (Undergraduate) - Trinity College Dubiln (Joint Lecturer)
 
 Teaching Assistant experience
 ======
