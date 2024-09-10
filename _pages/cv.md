@@ -11,54 +11,33 @@ redirect_from:
 
 Education
 ======
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
-* M.S. in Jekyll, GitHub University, 2014
-* B.S. in GitHub, GitHub University, 2012
+* Ph.D in Economics, Trinity College Dublin, 2025 (expected)
+* M.Sc. in Economics, Trinity College Dublin, 2021 (1st Class and ranked 1st in Class)
+* P.G Diploma in Economics, the University of New England (2019)
+* B.Comm. in Economics, Sydney University, 2016 (1st Class)
 
-Work experience
+Lecturing experience
 ======
-* Spring 2024: Academic Pages Collaborator
-  * Github University
-  * Duties includes: Updates and improvements to template
-  * Supervisor: The Users
+* Semester 1 2024: Undergraduate Econometrics 1 - Trinity College Dubiln
 
-* Fall 2015: Research Assistant
-  * Github University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
+Teaching Assistant experience
+======
+* 2022 - 2024: Econometrics I and II (Undergraduate) - Trinity College Dubiln
+* 2021: Econometrics 1 (Masters) - Trinity College Dubiln
+* 2021: Mathematical and Statistical Methods B (Undergraduate) - Trinity College Dubiln
+* 2015 - 2017: Microeconomics I & II (Undergraduate) - University of Sydney
+* 2015 - 2017: Econometrics I (Undergraduate) - University of Sydney
+* 2015 - 2017: Macroeconomics II (Undergraduate) - University of Sydney
 
-* Summer 2015: Research Assistant
-  * Github University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
-  
-Skills
+Private Teaching experience
 ======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+* 2016 - current: 500+ individual students in Microeconomics, Macroeconomics and Econometrics (Undergraduate and Postgraduate levels) - My Uni Tutor (Australia)
 
-Publications
+Academic and Teaching Awards
 ======
-  <ul>{% for post in site.publications reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Talks
-======
-  <ul>{% for post in site.talks reversed %}
-    {% include archive-single-talk-cv.html  %}
-  {% endfor %}</ul>
-  
-Teaching
-======
-  <ul>{% for post in site.teaching reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Service and leadership
-======
-* Currently signed in to 43 different slack teams
+* Terence Gorman Award - Highest Overrall Grades M.Sc. (Econ) - Trinity College dublin.
+* Dermott McAleese Teaching Assistant Award – Economics winner (2023)
+* Dermott McAleese Teaching Assistant Award – Economics runner up (2022)
+* IPSOS Market Research Prize (2017) - The Univeristy of Sydney
+* Academic Merit Prize (2015, 2016) - The Univeristy of Sydney
+
