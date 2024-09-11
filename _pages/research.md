@@ -26,7 +26,7 @@ I explore whether downstream supply chains can impact the moderation of social m
 I study how the expansion of a radio empire with a Christian nationalist agenda impacted Christian voter turnout and election results in the US during the 1990s and 2000s. I collect novel data on the timing of the expansion, technical specifications, and geographic locations of the affiliated radio stations, and account for the influence of topography and physical obstacles on radio signal strength by using a radio signal propagation model.
 </p>
 
-======
+
 <u>Development</u>
 ======
 **When to baseline - The impact of lottery allocation household outcomes in a very highly vulnerable setting**
