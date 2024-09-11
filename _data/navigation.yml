@@ -8,7 +8,7 @@ main:
   - title: "Home"
     url: /about/
   - title: "Research"
-    url: /reserach/
+    url: /research/
   - title: "CV"
     url: /cv/
     
