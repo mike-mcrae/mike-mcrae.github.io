@@ -1,6 +1,6 @@
 ---
 layout: archive
-title: "Research"
+title: #"Research"
 permalink: /research/
 author_profile: true
 ---
@@ -9,7 +9,7 @@ author_profile: true
 
 **Work in progress**
 ======
-**Media, Norms and Political Economy**
+<u>Media, Norms and Political Economy</u>
 ======
 **Black is the new Black - Media competition and slanted language**
 <p style="text-align: justify;">
@@ -26,8 +26,8 @@ I explore whether downstream supply chains can impact the moderation of social m
 I study how the expansion of a radio empire with a Christian nationalist agenda impacted Christian voter turnout and election results in the US during the 1990s and 2000s. I collect novel data on the timing of the expansion, technical specifications, and geographic locations of the affiliated radio stations, and account for the influence of topography and physical obstacles on radio signal strength by using a radio signal propagation model.
 </p>
 
-
-**Development**
+======
+<u>Development</u>
 ======
 **When to baseline - The impact of lottery allocation household outcomes in a very highly vulnerable setting**
 It is considered 'good practice' to collect a baseline survey for the purposes of improving statistical power, assessing baseline randomised group balance, and correcting for possible attrition, as well as for the purposes of heterogeneity analysis at end-line. However, it is common in field experiments to randomise treatment status in the public domain to allow community and government scrutiny of the 'fairness' of allocation. This approach can create constraints on the timing of baseline survey implementation. We analyse whether public lottery allocation effects respondents' outcomes in a sample of villages in Niger.
