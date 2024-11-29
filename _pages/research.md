@@ -28,6 +28,17 @@ I explore whether downstream supply chains can impact the moderation of social m
 I study how the expansion of a radio empire with a Christian nationalist agenda impacted Christian voter turnout and election results in the US during the 1990s and 2000s. I collect novel data on the timing of the expansion, technical specifications, and geographic locations of the affiliated radio stations, and account for the influence of topography and physical obstacles on radio signal strength by using a radio signal propagation model.
 </p>
 
+### <u>Climate Change</u>
+
+**Selective Science: How Media Bias Shapes Climate Change Narratives (Joint with M. Pograxha)**
+
+We investigate how the alignment between scientific narratives in academic articles about climate change and the priors of media consumers influences newspaper coverage. Using a comprehensive dataset of academic papers, media outlets’ political alignments, and metrics of article quality, we explore whether media outlets selectively highlight scientific evidence that confirms their audience's preconceptions, regardless of its quality. By analyzing the framing, frequency, and credibility of referenced articles, we reveal how media coverage can amplify or distort climate narratives, potentially spreading false claims aligned with consumer priors. This research informs our understanding of how media shapes public perceptions of climate science and highlights pathways for improving the dissemination of accurate scientific information, ultimately aiding in the design of more effective climate policies.
+
+**Climate on the Move: How Migration Imports Beliefs on Climate Change (Joint with M. Pograxha and E. Cavallotti)**
+
+We examine how climate shock-induced migration shapes the exchange of climate change beliefs across borders. Focusing on outward migration from regions increasingly affected by climate shocks, we analyze how these migrants influence perceptions of climate change in their new communities, particularly in the United States. By integrating data on migration corridors, climate shocks, and public opinion, we explore whether the arrival of climate-conscious individuals amplifies awareness and acceptance of climate science. This research sheds light on the intersection of migration, climate change, and belief formation, offering insights into how global mobility can drive cultural and policy shifts in the face of environmental challenges.
+
+
 
 ### <u>Development</u>
 **When to baseline - The impact of lottery allocation household outcomes in a highly vulnerable setting (Joint with C. M. Fernandez, A. Guariso, M. Holmlund, T. Mitchell, and C. Newman.)**
