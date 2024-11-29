@@ -15,9 +15,8 @@ author_profile: true
 I study how economic incentives shape local newspapers' responses to a call from Black Civil Rights leaders to use the label `Black' instead of `Negro' in the 1960's. I introduce two novel datasets—a corpus of 58 million newspaper articles and a digitized database of county-level newspaper circulation from 1964—which I match to create a panel of 450 Southern newspapers spanning the period 1960-1973. I provide evidence that newspapers' demand-side exposure to out-group preferences—proxied by local levels of White racial conservatism—predicts both lower and slower adjustment to the new label, and that this effect is exacerbated by the intensity of local newspaper market competition.  I show that the effect is not driven by local journalists, editors or companies' policies. I then show that economic incentives also shape media representation of Black entities when the ``Black'' label is adopted. This paper highlights how economic incentives within media markets can slow the diffusion of evolving norms, particularly when these norms challenge entrenched attitudes within the majority.
 </p>
 
-======
 
-**Work in progress**
+# <span style="font-size: 2em; font-weight: bold;">Work in Progress</span>
 
 ### <u>Climate Change</u>
 
