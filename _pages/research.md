@@ -16,7 +16,7 @@ I study how economic incentives shape local newspapers' responses to a call from
 </p>
 
 
-# <span style="font-size: 2em; font-weight: bold;">Work in Progress</span>
+<h1 style="font-size: 2em; font-weight: bold;">Work in Progress</h1>
 
 ### <u>Climate Change</u>
 
