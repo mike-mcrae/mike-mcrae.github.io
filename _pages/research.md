@@ -10,7 +10,7 @@ author_profile: true
 **Work in progress**
 ======
 ### <u>Job Market Paper</u>
-**Black is the new Black - Media competition and slanted language**
+**Black by Popular Demand: Media Competition and the Evolution of a Social Norm**
 
 <p style="text-align: justify;">
 I explore the effect of out-group preferences and newspaper market competition on newspaper adoption of a new minority group label. I exploit a call from US Black Civil Rights leaders in the 1960s to change the label ‘Negro’ to ‘Black’ when referring to Black people and measure local newspapers' use of the same terms in the US South. I introduce two novel datasets: (1) a corpus of ~200 million newspaper articles from ~1,000 newspapers spanning the period 1960-1973, and (2) a digitized database of newspaper county-level circulation from 1964. I provide evidence that the label change campaign launch constitutes a shock to local newspaper output, that existing local levels of White racial conservatism predicts slower adjustment to the new label and that this effect is exacerbated in the intensity of local newspaper market competition. These findings suggest the reinforcing effect that news media might have on the biases of dominant consumer groups, especially in the face of competition.
