@@ -18,7 +18,7 @@ I study how economic incentives shape local newspapers' responses to a call from
 
 <h1 style="font-size: 2em; font-weight: bold;">Work in Progress</h1>
 
-### <u>Climate Change</u>
+### <u>Climate Change and Environmental Economics</u>
 
 **Selective Science: How Media Bias Shapes Climate Change Narratives (Joint with M. Pograxha)**
 
