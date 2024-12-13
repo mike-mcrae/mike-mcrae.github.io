@@ -20,13 +20,14 @@ I study how economic incentives shape local newspapers' responses to a call from
 
 ### <u>Climate Change and Environmental Economics</u>
 
+**Climate on the Move: How Migration Imports Beliefs on Climate Change (Joint with M. Pograxha and E. Cavallotti)**
+
+We examine how climate shock-induced migration shapes the diffusion of climate change beliefs across international borders. Leveraging granular data on historical Mexican–U.S. migration corridors and local climate shocks in Mexico, we construct a shift-share instrument to isolate the exogenous component of migrant inflows to U.S. counties. By exploiting temporal variation in climate shocks across Mexican origin regions, our empirical strategy disentangles the causal effect of climate-induced migrant arrivals on the evolution of climate change acceptance within U.S. communities. Preliminary findings suggest that climate shocks abroad—transmitted through established migration networks—can meaningfully influence host populations’ environmental attitudes, underscoring global mobility’s role in shaping both cultural norms and policy preferences in an era of escalating environmental challenges.
+
 **Selective Science: How Media Bias Shapes Climate Change Narratives (Joint with M. Pograxha)**
 
 We investigate how the alignment between scientific narratives in academic articles about climate change and the priors of media consumers influences newspaper coverage. Using a comprehensive dataset of academic papers, media outlets’ political alignments, and metrics of article quality, we explore whether media outlets selectively highlight scientific evidence that confirms their audience's preconceptions, regardless of its quality. By analyzing the framing, frequency, and credibility of referenced articles, we reveal how media coverage can amplify or distort climate narratives, potentially spreading false claims aligned with consumer priors. This research informs our understanding of how media shapes public perceptions of climate science and highlights pathways for improving the dissemination of accurate scientific information, ultimately aiding in the design of more effective climate policies.
 
-**Climate on the Move: How Migration Imports Beliefs on Climate Change (Joint with M. Pograxha and E. Cavallotti)**
-
-We examine how climate shock-induced migration shapes the exchange of climate change beliefs across borders. Focusing on outward migration from Mexican regions increasingly affected by climate shocks, we analyze how these migrants influence perceptions of climate change in their new communities, particularly in the United States. By integrating data on migration corridors, climate shocks, and public opinion, we explore whether the arrival of climate-conscious individuals amplifies awareness and acceptance of climate science. This research sheds light on the intersection of migration, climate change, and belief formation, offering insights into how global mobility can drive cultural and policy shifts in the face of environmental challenges.
 
 **Tracing the Roots of Flood Risk: How Hedgerow Removal Reshaped France’s Landscape (Joint with V. Thorne)**
 
