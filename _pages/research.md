@@ -8,7 +8,7 @@ author_profile: true
 {% include base_path %}
 <h1 style="font-size: 2em; font-weight: bold;">Job Market Paper</h1>
 
-**Black by Popular Demand: Media Competition and the Evolution of a Social Norm**
+**Black by Popular Demand: Media, Competition and the Evolution of a Social Norm**
 [Draft November 2024](https://www.dropbox.com/scl/fi/qvurfsbcafs500w61oe49/Black-by-Popular-Demand-Draft-November-2024.pdf?rlkey=076hdckzcmm5ehqus8hqw4rbz&st=7wmzf367&dl=0)
 
 <p style="text-align: justify;">
