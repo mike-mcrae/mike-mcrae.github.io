@@ -1,4 +1,9 @@
-# Projects
+---
+layout: archive
+title: #"Projects"
+permalink: /projects/
+author_profile: true
+---
 
 ## Southern Newswire Corpus - Historical Wire Articles (1960–1975)  
 [View on GitHub](https://github.com/mikemcrae/southern-newswire) 🚀  
