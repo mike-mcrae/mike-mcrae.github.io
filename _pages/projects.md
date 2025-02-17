@@ -8,7 +8,6 @@ The **Southern Newswire Corpus** is a large-scale dataset of historical wire art
   <img src="/images/layout.jpg" alt="Race Dictionary Monthly" style="width: 30%;">
 </p>
 <p style="display: flex; justify-content: space-between;">
-  <img src="/images/race_dict_monthly_pres.svg" alt="Race Dictionary Monthly" style="width: 30%;">
   <img src="/images/2.ap_upi_nea_proportions.svg" alt="Event Study Q1-Q4" style="width: 30%;">
  <img src="/images/3.topics_over_time.svg" alt="Race Dictionary Monthly" style="width: 30%;">
 </p>
