@@ -15,6 +15,11 @@ author_profile: true
 Leveraging an exogenous shift in language preferences induced by mid-1960s calls from Black Civil Rights leaders to use the term “Black” instead of “Negro,” this paper examines how economic incentives shape local newspapers’ responses to evolving cultural norms. I introduce two novel datasets—a corpus of 58 million newspaper articles and a digitized database of county-level newspaper circulation from 1964—which I match to create a panel of 450 Southern newspapers spanning the period 1960-1973. I provide evidence that newspapers' demand-side exposure to out-group preferences—proxied by local levels of White racial conservatism—predicts both lower and slower adjustment to the new label, and that this effect is exacerbated by the intensity of local newspaper market competition. I show that the effect is not driven by local journalists, editors or companies' policies. I then, in a second stage, show that, when the ``Black'' label is adopted, media representation of Black entities is significantly, immediately and persistently aligned with the identity intended by the ``Black'' campaign leaders. This representation is less prominent in the face of increasing White racial conservatism and heterogeneous in the face of competition. This paper highlights how economic incentives within media markets can slow the diffusion of evolving norms, particularly when these norms challenge entrenched attitudes within the majority. My findings challenge the conventional view that competition inherently fosters diversity in media content, suggesting instead that it may deepen entrenched biases when minority preferences diverge from majority tastes.
 </p>
 
+<p style="display: flex; justify-content: space-between;">
+  <img src="{{ site.baseurl }}/images/V589_event_Q1_Q4.pdf" alt="Event Study Q1-Q4" style="width: 48%;">
+  <img src="{{ site.baseurl }}/images/race_dict_monthly_pres.pdf" alt="Race Dictionary Monthly" style="width: 48%;">
+</p>
+
 
 <h1 style="font-size: 2em; font-weight: bold;">Work in Progress</h1>
 
