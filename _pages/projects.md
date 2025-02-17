@@ -17,6 +17,12 @@ The **Southern Newswire Corpus** is a large-scale dataset of historical wire art
   <img src="/images/layout.jpg" alt="Race Dictionary Monthly" style="width: 30%;">
 </p>
 
+<p style="display: flex; justify-content: space-between; padding: 0 5%;">
+  <img src="/images/layout_boxes_0.jpg" alt="Event Study Q1-Q4" style="width: 30%;">
+ <img src="/images/layout.jpg" alt="Race Dictionary Monthly" style="width: 30%;">
+</p>
+
+
 **2. Identification of newswire service:** I develop three fine-tuned BERT models to identify whether aricles are written by the Associated Press (AP), United Press International (UPI), or Newspaper Enterprise Association (NEA). 
 
 <p style="display: flex; justify-content: space-between;">
