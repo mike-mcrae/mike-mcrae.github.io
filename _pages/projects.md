@@ -33,17 +33,17 @@ The **Southern Newswire Corpus** is a large-scale dataset of historical wire art
 
 **4. LLM-Based Text Correction:** I developed a text-correction pipeline that uses Llama3.2, a large language model configured for minimal rewriting. Llama3.2 corrects common OCR artefacts such as misread characters, broken words, or stray punctuation, improving text clarity without introducing anachronistic spellings, while preserving paragraph structure and historical language. Corrections are limited to unambiguous OCR errors, ensuring that archaic or dialect terms remain intact.
 
-**Final Dataset:** 9.57 million wire articles detected from 58 million total articles.  
+**Final Dataset:** 9.57 million wire articles from 58 million total articles.  
 **Observations:** article_id, underlying_wire_id, newspaper_title, date, location, headline, author, newswire_service, raw_article, corrected_article, topic.
 ---
 
-
-## The American Newspaper Corpus (1960–1975) - Coming Soon  🛠️ 
-A **nationwide historical newspaper corpus** covering **>1000 U.S newspapers** from **1960–1975**. This dataset will provide a **comprehensive view** of how newspapers across different regions covered major events, political shifts, and cultural changes.
+## 🛠️ The American Newspaper Corpus (1960–1975) - Coming Soon  
+A **nationwide historical newspaper corpus** covering **>1000 U.S. newspapers** from **1960–1975**. This dataset offers a comprehensive view of regional newspaper coverage of major events, political shifts, and cultural changes.
 
 ### Key Features:
-- **Full newspaper archives**, for newspaper articles out of copyright.
-- **Advanced OCR correction** using fine-tuned language models.
-- **Topic and sentiment analysis** to track media discourse over time.
+- **Full Newspaper Archives:** Coverage for articles out of copyright.
+- **Advanced OCR Correction:** Fine-tuned large language models for cleaner text.
+- **Topic and Sentiment Analysis:** Track shifts in media discourse.
+- **Regional Comparisons:** Explore variations by state and political alignment.
 
-🚀 Stay tuned for updates as this dataset develops! 
+🚀 Stay tuned for updates as this dataset develops! 😊
