@@ -39,12 +39,11 @@ The **Southern Newswire Corpus** is a large-scale dataset of historical wire art
 
 
 ## The American Newspaper Corpus (1960–1975) - Coming Soon  🛠️ 
-A **nationwide historical newspaper corpus** covering **all U.S. newspapers** from **1960–1975**. This dataset will provide a **comprehensive view** of how newspapers across different regions covered major events, political shifts, and cultural changes.
+A **nationwide historical newspaper corpus** covering **>1000 U.S newspapers** from **1960–1975**. This dataset will provide a **comprehensive view** of how newspapers across different regions covered major events, political shifts, and cultural changes.
 
 ### Key Features:
-- **Full newspaper archives**, not just newswire articles.
+- **Full newspaper archives**, for newspaper articles out of copyright.
 - **Advanced OCR correction** using fine-tuned language models.
 - **Topic and sentiment analysis** to track media discourse over time.
-- **Comparisons across states and political leanings** to analyze media bias and framing.
 
 🚀 Stay tuned for updates as this dataset develops! 
