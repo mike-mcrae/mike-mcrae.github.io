@@ -28,8 +28,8 @@ The **Southern Newswire Corpus** is a large-scale dataset of historical wire art
 
 **3. Duplication identification:** I adopt a noise-robust de-duplication approach (Silcock et al., 2024) to identify replications of the same underlying dispatch, allowing for comparison between local versions of non-local news.  
 
-<p style="display: flex; justify-content: space-between; padding: 0 5%;">
-  <img src="/images/news1b.png" alt="news1" style="width: 30%; margin-right: 10%;">
+<p style="display: flex; justify-content: space-between;">
+  <img src="/images/news1b.png" alt="news1" style="width: 30%;">
   <img src="/images/news2b.png" alt="news2" style="width: 30%;">
 </p>
 
