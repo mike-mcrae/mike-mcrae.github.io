@@ -5,7 +5,6 @@ permalink: /projects/
 author_profile: true
 ---
 
-## Southern Newswire Corpus - Historical Wire Articles (1960–1975)
 Replication, Data, & Models - [GitHub Repository](https://github.com/mikemcrae/southern-newswire). 
 Preliminary Article - [arXiv](https://arxiv.com) 
 
