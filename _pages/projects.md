@@ -13,13 +13,9 @@ The **Southern Newswire Corpus** is a large-scale dataset of historical wire art
 
 **1. Parsing Layout:** Articles, headlines, advertisements, and other content regions are identified from raw newspaper page scans. A newly trained layout detection model using Yolo v10 is introduced and available soon at [GitHub](https://github.com/mikemcrae/southern-newswire). 
 
-<p style="display: flex; justify-content: center;">
-  <img src="/images/layout.jpg" alt="Race Dictionary Monthly" style="width: 30%;">
-</p>
-
 <p style="display: flex; justify-content: space-between; padding: 0 5%;">
-  <img src="/images/layout_boxes_0.jpg" alt="Event Study Q1-Q4" style="width: 30%;">
- <img src="/images/layout.jpg" alt="Race Dictionary Monthly" style="width: 30%;">
+  <img src="/images/layout_boxes_0.jpg" alt="Layout parsing" style="width: 30%;">
+ <img src="/images/layout.jpg" alt="Observation collation" style="width: 30%;">
 </p>
 
 
