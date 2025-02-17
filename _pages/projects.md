@@ -1,6 +1,8 @@
 ---
-title: Southern Newswire Corpus
-layout: default
+layout: archive
+title: #"Projects"
+permalink: /projects/
+author_profile: true
 ---
 
 # 📊 Southern Newswire Corpus: A Large-Scale Dataset of Mid-Century Wire Articles Beyond the Front Page
