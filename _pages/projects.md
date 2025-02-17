@@ -4,9 +4,10 @@
 [View on GitHub](https://github.com/mikemcrae/southern-newswire) 🚀  
 The **Southern Newswire Corpus** is a large-scale dataset of historical wire articles from U.S. Southern newspapers, spanning **1960–1975**. It covers multiple wire services (**AP**, **UPI**, and **NEA**) and offers both **raw OCR** and **LLM-corrected** versions.
 
-<p style="display: flex; justify-content: space-between;">
-  <img src="/images/layout.jpg" alt="Race Dictionary Monthly" style="width: 20%;">
+<p style="text-align: center;">
+  <img src="/images/layout.jpg" alt="Race Dictionary Monthly" style="width: 40%;">
 </p>
+
 
 ### Highlights:
 - **Neural Networks**: Used a fine-tuned BERT model to identify wire services.
