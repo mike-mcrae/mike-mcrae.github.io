@@ -21,7 +21,7 @@ Identification of newswire service: I introduce three fine-tuned BERT models to 
 
 <p style="display: flex; justify-content: space-between;">
   <img src="/images/2.ap_upi_nea_proportions.svg" alt="Event Study Q1-Q4" style="width: 40%;">
- <img src="/images/3.topics_over_time.svg" alt="Race Dictionary Monthly" style="width: 48%;">
+ <img src="/images/3.topics_over_time.svg" alt="Race Dictionary Monthly" style="width: 40%;">
 </p>
 
 Duplication identification: I adopt a noise-robust de-duplication approach (Silcock et al., 2024) to identify replications of the same underlying dispatch, allowing for comparison between local versions of non-local news.  
