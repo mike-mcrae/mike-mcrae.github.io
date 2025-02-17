@@ -31,15 +31,8 @@ The **Southern Newswire Corpus** is a large-scale dataset of historical wire art
 
 **4. LLM-Based Text Correction:** I developed a text-correction pipeline that uses Llama3.2, a large language model configured for minimal rewriting. Llama3.2 corrects common OCR artefacts such as misread characters, broken words, or stray punctuation, improving text clarity without introducing anachronistic spellings, while preserving paragraph structure and historical language. Corrections are limited to unambiguous OCR errors, ensuring that archaic or dialect terms remain intact.
 
-
-### Results:
-- **Neural Networks**: Used a fine-tuned BERT model to identify wire services.
-- **Machine Learning for OCR Correction**: Leveraged Llama 3.2 to correct noisy OCR outputs.
-- **Article Clustering**: Employed Sentence-BERT embeddings to detect shared wire dispatches.
-- **Topic Modeling**: Used LDA and BERTopic to identify news themes.
-
 **Final Dataset:** 9.57 million wire articles detected from 58 million total articles.  
-
+**Observations:** article_id, underlying_wire_id, newspaper_title, date, location, headline, author, newswire_service, raw_article, corrected_article, topic.
 ---
 
 ## 🛠️ Project 2 - Coming Soon  
