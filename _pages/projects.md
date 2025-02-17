@@ -26,10 +26,11 @@ The **Southern Newswire Corpus** is a large-scale dataset of historical wire art
 
 **3. Duplication identification:** I adopt a noise-robust de-duplication approach (Silcock et al., 2024) to identify replications of the same underlying dispatch, allowing for comparison between local versions of non-local news.  
 
-<p style="display: flex; justify-content: space-between;">
-  <img src="/images/news1b.png" alt="news1" style="width: 40%;">
- <img src="/images/news2b.png" alt="news2" style="width: 40%;">
+<p style="display: flex; justify-content: space-between; padding: 0 5%;">
+  <img src="/images/news1b.png" alt="news1" style="width: 30%; margin-right: 2%;">
+  <img src="/images/news2b.png" alt="news2" style="width: 30%;">
 </p>
+
 
 **4. LLM-Based Text Correction:** I developed a text-correction pipeline that uses Llama3.2, a large language model configured for minimal rewriting. Llama3.2 corrects common OCR artefacts such as misread characters, broken words, or stray punctuation, improving text clarity without introducing anachronistic spellings, while preserving paragraph structure and historical language. Corrections are limited to unambiguous OCR errors, ensuring that archaic or dialect terms remain intact.
 
@@ -43,6 +44,6 @@ A **nationwide historical newspaper corpus** covering **>1000 U.S. newspapers** 
 - **Full Newspaper Archives:** Coverage for articles out of copyright.
 - **Advanced OCR Correction:** Fine-tuned large language models for cleaner text.
 - **Topic and Sentiment Analysis:** Track shifts in media discourse.
-- **Regional Comparisons:** Explore variations by state and political alignment.
+- **Regional Comparisons:** Explore variations by county and political alignment.
 
 🚀 Stay tuned for updates as this dataset develops! 😊
