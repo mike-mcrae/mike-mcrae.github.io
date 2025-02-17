@@ -26,6 +26,11 @@ Identification of newswire service: I introduce three fine-tuned BERT models to 
 
 Duplication identification: I adopt a noise-robust de-duplication approach (Silcock et al., 2024) to identify replications of the same underlying dispatch, allowing for comparison between local versions of non-local news.  
 
+<p style="display: flex; justify-content: space-between;">
+  <img src="/images/news1b.png" alt="Event Study Q1-Q4" style="width: 40%;">
+ <img src="/images/news2b.png" alt="Race Dictionary Monthly" style="width: 48%;">
+</p>
+
 ### Highlights:
 - **Neural Networks**: Used a fine-tuned BERT model to identify wire services.
 - **Machine Learning for OCR Correction**: Leveraged Llama 3.2 to correct noisy OCR outputs.
