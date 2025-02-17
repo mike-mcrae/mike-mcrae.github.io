@@ -6,7 +6,7 @@ author_profile: true
 ---
 
 ## Southern Newswire Corpus - Historical Wire Articles (1960–1975)  
-[View on GitHub](https://github.com/mikemcrae/southern-newswire) 🚀  
+[View on GitHub](https://github.com/mikemcrae/southern-newswire) [arXiv](https://arxiv.com)
 The **Southern Newswire Corpus** is a large-scale dataset of historical wire articles from U.S. Southern newspapers, spanning **1960–1975**. It covers multiple wire services (**AP**, **UPI**, and **NEA**) and offers both **raw OCR** and **LLM-corrected** versions.
 
 <p style="display: flex; justify-content: center;">
