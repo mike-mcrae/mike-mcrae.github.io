@@ -13,7 +13,7 @@ The **Southern Newswire Corpus** is a large-scale dataset of historical wire art
 
 **1. Parsing Layout:** Articles, headlines, advertisements, and other content regions are identified from raw newspaper page scans. A newly trained layout detection model using Yolo v10 is introduced and available soon at [GitHub](https://github.com/mikemcrae/southern-newswire). Articles which span multiple bounding boxes are combined with a rule-based association which uses bounding-box coordinates to merge them into a single structured observation, preserving the headline, author byline (where identifiable), and article text. 
 
-<p style="display: flex; justify-content: space-between; padding: 0 5%;">
+<p style="display: flex; justify-content: space-between;">
   <img src="/images/layout_boxes_0.jpg" alt="Layout parsing" style="width: 30%;">
  <img src="/images/layout.jpg" alt="Observation collation" style="width: 30%;">
 </p>
@@ -29,7 +29,7 @@ The **Southern Newswire Corpus** is a large-scale dataset of historical wire art
 **3. Duplication identification:** I adopt a noise-robust de-duplication approach (Silcock et al., 2024) to identify replications of the same underlying dispatch, allowing for comparison between local versions of non-local news.  
 
 <p style="display: flex; justify-content: space-between; padding: 0 5%;">
-  <img src="/images/news1b.png" alt="news1" style="width: 30%; margin-right: 2%;">
+  <img src="/images/news1b.png" alt="news1" style="width: 30%; margin-right: 10%;">
   <img src="/images/news2b.png" alt="news2" style="width: 30%;">
 </p>
 
