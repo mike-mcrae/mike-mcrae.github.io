@@ -5,8 +5,6 @@ permalink: /projects/
 author_profile: true
 ---
 
-# Southern Newswire Corpus
-
 ## Overview
 The **Southern Newswire Corpus** is a large-scale dataset of historical wire articles from U.S. Southern newspapers, spanning **1960–1975**. It covers multiple wire services, including **Associated Press (AP)**, **United Press International (UPI)**, and **Newspaper Enterprise Association (NEA)**. Unlike prior work focusing solely on front-page content, this dataset captures articles across entire newspapers, offering broader insights into mid-century Southern coverage.
 
