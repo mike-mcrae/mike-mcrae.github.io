@@ -16,9 +16,10 @@ Leveraging an exogenous shift in language preferences induced by mid-1960s calls
 </p>
 
 <p style="display: flex; justify-content: space-between;">
-  <img src="{{ site.baseurl }}/images/V589_event_Q1_Q4.pdf" alt="Event Study Q1-Q4" style="width: 48%;">
-  <img src="{{ site.baseurl }}/images/race_dict_monthly_pres.pdf" alt="Race Dictionary Monthly" style="width: 48%;">
+  <img src="/images/V589_event_Q1_Q4.pdf" alt="Event Study Q1-Q4" style="width: 48%;">
+  <img src="/images/race_dict_monthly_pres.pdf" alt="Race Dictionary Monthly" style="width: 48%;">
 </p>
+
 
 
 <h1 style="font-size: 2em; font-weight: bold;">Work in Progress</h1>
