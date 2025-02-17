@@ -35,9 +35,9 @@ Private Teaching experience
 
 Academic and Teaching Awards
 ======
-* Terence Gorman Award - Highest Overrall Grades M.Sc. (Econ) - Trinity College dublin.
-* Dermott McAleese Teaching Assistant Award – Economics winner (2023)
-* Dermott McAleese Teaching Assistant Award – Economics runner up (2022)
+* Dermott McAleese Teaching Award – Winner (2023) - Trinity College Dublin.
+* Dermott McAleese Teaching Award – Runner-up (2022) - Trinity College Dublin.
+* Terence Gorman Award - Highest Overrall Grades M.Sc. (Econ) - Trinity College Dublin.
 * IPSOS Market Research Prize (2017) - The Univeristy of Sydney
 * Academic Merit Prize (2015, 2016) - The Univeristy of Sydney
 
