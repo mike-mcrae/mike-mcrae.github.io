@@ -5,10 +5,12 @@
 The **Southern Newswire Corpus** is a large-scale dataset of historical wire articles from U.S. Southern newspapers, spanning **1960–1975**. It covers multiple wire services (**AP**, **UPI**, and **NEA**) and offers both **raw OCR** and **LLM-corrected** versions.
 
 <p style="display: flex; justify-content: center;">
-  <img src="/images/layout.jpg" alt="Race Dictionary Monthly" style="width: 35%;">
+  <img src="/images/layout.jpg" alt="Race Dictionary Monthly" style="width: 30%;">
 </p>
-<p style="text-align: center;">
-  <img src="/images/layout.jpg" alt="Race Dictionary Monthly" style="width: 40%;">
+<p style="display: flex; justify-content: space-between;">
+  <img src="/images/race_dict_monthly_pres.svg" alt="Race Dictionary Monthly" style="width: 30%;">
+  <img src="/images/2.ap_upi_nea_proportions.svg" alt="Event Study Q1-Q4" style="width: 30%;">
+ <img src="/images/3.topics_over_time.svg" alt="Race Dictionary Monthly" style="width: 30%;">
 </p>
 
 
