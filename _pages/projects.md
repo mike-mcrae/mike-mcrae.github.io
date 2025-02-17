@@ -38,7 +38,7 @@ The **Southern Newswire Corpus** is a large-scale dataset of historical wire art
 ---
 
 
-## 🛠️ The American Newspaper Corpus (1960–1975) - Coming Soon  
+## The American Newspaper Corpus (1960–1975) - Coming Soon  🛠️ 
 A **nationwide historical newspaper corpus** covering **all U.S. newspapers** from **1960–1975**. This dataset will provide a **comprehensive view** of how newspapers across different regions covered major events, political shifts, and cultural changes.
 
 ### Key Features:
