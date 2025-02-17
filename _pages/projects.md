@@ -27,6 +27,8 @@ Each article follows the format:
   "newspaper": "Atlanta Daily",
   "date": "1965-03-15",
   "headline": "Civil Rights March",
+  "author": "Author's name",
+  "article":"Article Text",
   "AP": 1,
   "UPI": 0,
   "NEA": 0
@@ -80,7 +82,7 @@ The following table summarizes the corpus contents:
 - **No deduplication**—local variations are preserved for editorial comparison.
 
 ## 📥 Download
-The dataset is available [here](https://huggingface.co/username/southern-newswires).
+The dataset will be available for download upon publication or reasonable request for research purposes.
 
 ## 📝 Citation
 ```
@@ -92,11 +94,6 @@ The dataset is available [here](https://huggingface.co/username/southern-newswir
   url       = {https://github.com/mikemcrae/southern-newswire}
 }
 ```
-
-## 🔮 Future Directions
-- Expanding dataset coverage to **all U.S. states** (1960–1975).
-- Enhancing **OCR correction** using open-source models.
-- Improving **topic modeling** via transformer embeddings.
 
 ---
 
