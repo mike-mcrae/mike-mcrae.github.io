@@ -22,19 +22,17 @@ The **Southern Newswire Corpus** is a large-scale dataset of historical wire art
 
 **2. Identification of newswire service:** I develop three fine-tuned BERT models to identify whether aricles are written by the Associated Press (AP), United Press International (UPI), or Newspaper Enterprise Association (NEA). 
 
-<div style="display: flex; justify-content: center; gap: 30px;">
-  <img src="/images/layout_boxes_0.jpg" alt="Layout parsing" style="width: 30%;">
-  <img src="/images/layout.jpg" alt="Observation collation" style="width: 30%;">
+<div style="display: flex; justify-content: center; gap: 40px;">
+  <img src="/images/2.ap_upi_nea_proportions.svg" alt="Event Study Q1-Q4" style="width: 40%;">
+  <img src="/images/3.topics_over_time.svg" alt="Race Dictionary Monthly" style="width: 40%;">
 </div>
-
 
 **3. Duplication identification:** I adopt a noise-robust de-duplication approach (Silcock et al., 2024) to identify replications of the same underlying dispatch, allowing for comparison between local versions of non-local news.  
 
 <div style="display: flex; justify-content: center; gap: 30px;">
-  <img src="/images/layout_boxes_0.jpg" alt="Layout parsing" style="width: 30%;">
-  <img src="/images/layout.jpg" alt="Observation collation" style="width: 30%;">
+  <img src="/images/news1b.png" alt="news1" style="width: 30%;">
+  <img src="/images/news2b.png" alt="news2" style="width: 30%;">
 </div>
-
 
 **4. LLM-Based Text Correction:** I developed a text-correction pipeline that uses Llama3.2, a large language model configured for minimal rewriting. Llama3.2 corrects common OCR artefacts such as misread characters, broken words, or stray punctuation, improving text clarity without introducing anachronistic spellings, while preserving paragraph structure and historical language. Corrections are limited to unambiguous OCR errors, ensuring that archaic or dialect terms remain intact.
 
