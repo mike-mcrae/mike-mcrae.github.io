@@ -35,7 +35,7 @@ This paper provides evidence of racial biases in newspaper editor content decisi
 
 **Selective Science: How Media Bias Shapes Climate Change Narratives (Joint with M. Pograxha)**
 
-We investigate how the alignment between scientific narratives in academic articles about climate change and the priors of media consumers influences newspaper coverage. Using a comprehensive dataset of academic papers, media outlets’ political alignments, and metrics of article quality, we explore whether media outlets selectively highlight scientific evidence that confirms their audience's priors, unconditional of quality.  This research informs our understanding of how media shapes public perceptions of climate science and highlights pathways for improving the dissemination of accurate scientific information.
+We investigate how the alignment between scientific narratives in academic articles about climate change and the priors of media consumers influences newspaper coverage. Using a comprehensive dataset of academic papers, media outlets’ political alignments, and metrics of article quality, we explore whether media outlets selectively highlight scientific evidence that confirms their audience's priors, independent of quality.  This research informs our understanding of how media shapes public perceptions of climate science and highlights pathways for improving the dissemination of accurate scientific information.
 
 **The Google Nanny & Truth Social - Moderation of toxic content by downstream supply chains**
 
