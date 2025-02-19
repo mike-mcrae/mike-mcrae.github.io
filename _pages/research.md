@@ -27,7 +27,7 @@ Leveraging an exogenous shift in language preferences induced by mid-1960s calls
 
 **The Introduction and Reduction of Estimation Bias in AI Assisted Research**
 
- When do societal and historical biases in AI text-training data introduce measurement error in LLM assisted research? How can we reduce or eliminate these biases? In this paper, I demonstrate how careful methodological design can leverage the power of LLMs while preserving objectivity, thereby enhancing the reliability of AI-assisted textual analysis in economics and the social sciences.
+ When do societal and historical biases introduce measurement error in LLM assisted research? How can we reduce or eliminate these biases? In this paper, I demonstrate how careful methodological design can leverage the power of LLMs while preserving objectivity, thereby enhancing the reliability of AI-assisted textual analysis in economics and the social sciences.
 
 **Editorial Bias: Evidence from Historical Newspapers**
 
