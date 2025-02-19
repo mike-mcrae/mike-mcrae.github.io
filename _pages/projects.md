@@ -7,7 +7,7 @@ author_profile: true
 
 ## Southern Newswire Corpus - Historical Wire Articles (1960–1975)
 Replication, Data, & Models - [GitHub Repository](https://github.com/mikemcrae/southern-newswires). 
-Preliminary Article - [arXiv](https://arxiv.com) 
+Preliminary Article - [arXiv](http://arxiv.org/abs/2502.11866) 
 
 The **Southern Newswire Corpus** is a large-scale dataset of historical wire articles from U.S. Southern newspapers, spanning **1960–1975**. It covers multiple wire services (**AP**, **UPI**, and **NEA**) and offers both **raw OCR** and **LLM-corrected** versions. I developed a open-source pipeline tailored for the digitization of historical newspapers, which allows for performing multiple tasks.  
 
