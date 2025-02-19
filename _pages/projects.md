@@ -6,12 +6,12 @@ author_profile: true
 ---
 
 ## Southern Newswire Corpus - Historical Wire Articles (1960–1975)
-Replication, Data, & Models - [GitHub Repository](https://github.com/mike-mcrae.github.io/southern-newswires). 
+Replication, Data, & Models - [GitHub Repository](https://github.com/mike-mcrae/southern-newswires). 
 Preliminary Article - [arXiv](http://arxiv.org/abs/2502.11866) 
 
 The **Southern Newswire Corpus** is a large-scale dataset of historical wire articles from U.S. Southern newspapers, spanning **1960–1975**. It covers multiple wire services (**AP**, **UPI**, and **NEA**) and offers both **raw OCR** and **LLM-corrected** versions. I developed a open-source pipeline tailored for the digitization of historical newspapers, which allows for performing multiple tasks. 
 
-**1. Parsing Layout:** Articles, headlines, advertisements, and other content regions are identified from raw newspaper page scans. A newly trained layout detection model using Yolo v10 is introduced and available soon at [GitHub](https://github.com/mikemcrae/southern-newswire). Articles which span multiple bounding boxes are combined with a rule-based association which uses bounding-box coordinates to merge them into a single structured observation, preserving the headline, author byline (where identifiable), and article text. 
+**1. Parsing Layout:** Articles, headlines, advertisements, and other content regions are identified from raw newspaper page scans. A newly trained layout detection model using Yolo v10 is introduced and available soon at [GitHub](https://github.com/mike-mcrae/southern-newswires). Articles which span multiple bounding boxes are combined with a rule-based association which uses bounding-box coordinates to merge them into a single structured observation, preserving the headline, author byline (where identifiable), and article text. 
 
 <div style="display: flex; justify-content: center; gap: 30px;">
   <img src="/images/layout_boxes_0.jpg" alt="Layout parsing" style="width: 30%;">
