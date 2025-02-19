@@ -29,6 +29,10 @@ Leveraging an exogenous shift in language preferences induced by mid-1960s calls
 
  When do societal and historical biases in AI text-training data introduce measurement error in LLM assisted research? How can we reduce or eliminate these biases? In this paper, I demonstrate how careful methodological design can leverage the power of LLMs while preserving objectivity, thereby enhancing the reliability of AI-assisted textual analysis in economics and the social sciences.
 
+**Editorial Bias: Evidence from Historical Newspapers**
+
+This paper provides evidence of racial biases in newspaper editor content decisions. It examines variation in language across newspapers when publishing the same underlying wire articles, revealing systematic differences in editorial choices.
+
 **Selective Science: How Media Bias Shapes Climate Change Narratives (Joint with M. Pograxha)**
 
 We investigate how the alignment between scientific narratives in academic articles about climate change and the priors of media consumers influences newspaper coverage. Using a comprehensive dataset of academic papers, media outlets’ political alignments, and metrics of article quality, we explore whether media outlets selectively highlight scientific evidence that confirms their audience's priors, unconditional of quality.  This research informs our understanding of how media shapes public perceptions of climate science and highlights pathways for improving the dissemination of accurate scientific information.
