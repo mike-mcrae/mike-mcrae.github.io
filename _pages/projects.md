@@ -9,7 +9,7 @@ author_profile: true
 Replication, Data, & Models - [GitHub Repository](https://github.com/mikemcrae/southern-newswires). 
 Preliminary Article - [arXiv](http://arxiv.org/abs/2502.11866) 
 
-The **Southern Newswire Corpus** is a large-scale dataset of historical wire articles from U.S. Southern newspapers, spanning **1960–1975**. It covers multiple wire services (**AP**, **UPI**, and **NEA**) and offers both **raw OCR** and **LLM-corrected** versions. I developed a open-source pipeline tailored for the digitization of historical newspapers, which allows for performing multiple tasks.  
+The **Southern Newswire Corpus** is a large-scale dataset of historical wire articles from U.S. Southern newspapers, spanning **1960–1975**. It covers multiple wire services (**AP**, **UPI**, and **NEA**) and offers both **raw OCR** and **LLM-corrected** versions. I developed a open-source pipeline tailored for the digitization of historical newspapers, which allows for performing multiple tasks. This is part of a larger newspaper article extraction project which covers the entire United States includinglocally produced articles which are out of copyright. 
 
 **1. Parsing Layout:** Articles, headlines, advertisements, and other content regions are identified from raw newspaper page scans. A newly trained layout detection model using Yolo v10 is introduced and available soon at [GitHub](https://github.com/mikemcrae/southern-newswire). Articles which span multiple bounding boxes are combined with a rule-based association which uses bounding-box coordinates to merge them into a single structured observation, preserving the headline, author byline (where identifiable), and article text. 
 
