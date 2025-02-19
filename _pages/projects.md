@@ -39,6 +39,8 @@ The **Southern Newswire Corpus** is a large-scale dataset of historical wire art
 **Final Dataset:** 9.57 million wire articles from 58 million total articles.  
 **Observations:** article_id, underlying_wire_id, newspaper_title, date, location, headline, author, newswire_service, raw_article, corrected_article, topic.
 
+---
+
 ## 🛠️ The American Newspaper Corpus (1960–1975) - Coming Soon  
 A **nationwide historical newspaper article corpus** covering **>1000 U.S. newspapers** from **1960–1975**. This dataset offers a comprehensive view of regional newspaper coverage of major events, political shifts, and cultural changes.
 
