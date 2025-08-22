@@ -26,7 +26,7 @@ What role do economic incentives play in social change? I study how media, respo
 <h1 style="font-size: 2em; font-weight: bold;">Work in Progress</h1>
 
 
-**Vertical Governance of Online Speech: Evidence from Google’s Moderation Mandate**
+**Vertical Governance of Online Speech: Evidence from Google’s Moderation Mandate [Solo-Authored]**
 [Latest Draft](https://www.dropbox.com/scl/fi/4syz4glhavu1o07lmroey/0.-Vertical-Governance-of-Online-Speech.pdf?rlkey=wn1w7um4q8xx11ceqdgp9zlt9&dl=0)
 
 <p style="text-align: justify;">
@@ -39,7 +39,7 @@ This paper provides the first causal evidence that upstream infrastructure provi
  <img src="/images/paper2/image3.png" alt="" style="width: 30%;">
 </p>
 
-**From the Pulpit to the Polls: The Electoral Consequences of Christian Talk Radio**
+**From the Pulpit to the Polls: The Electoral Consequences of Christian Talk Radio [Solo-Authored]**
 <p style="text-align: justify;">
 This paper examines the impact of Salem Communications’ rapid expansion of Christian-conservative radio on voter turnout and Republican vote share in U.S. presidential elections. Leveraging data on station acquisitions, technical specifications, and local topography, I identify exogenous variation in radio signal strength using a strategy adapted from Olken (2009). I construct counterfactual signal-strength measures for each county in the absence of terrain obstacles and compare them to observed reception, thereby isolating the portion of Salem’s broadcasts plausibly unrelated to underlying political trends. Linking these signal data to county-level voting records and measures of evangelical congregations, I find that increased Salem exposure is associated with a statistically significant rise in the Republican share of the vote. Results suggest that areas with sizeable evangelical populations are more sensitive to conservative radio programming, revealing the role religiously oriented media can play in political mobilisation. By highlighting how regulatory changes, particularly the end of the Fairness Doctrine and the 1996 Telecommunications Act, enabled the proliferation of partisan radio networks, the findings contribute to a broader literature on media influence, religious mobilisation, and electoral behaviour.
 </p>
@@ -50,7 +50,7 @@ This paper examines the impact of Salem Communications’ rapid expansion of Chr
 </p>
 
 
-**The Introduction and Reduction of Estimation Bias in AI Assisted Research**
+**The Introduction and Reduction of Estimation Bias in AI Assisted Research [Solo-Authored]**
 
  When do societal and historical biases introduce measurement error in LLM assisted research? How can we reduce or eliminate these biases? In this paper, I demonstrate how careful methodological design can leverage the power of LLMs while preserving objectivity, thereby enhancing the reliability of AI-assisted textual analysis in economics and the social sciences.
 
