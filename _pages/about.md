@@ -9,7 +9,7 @@ redirect_from:
 
 I am a Ph.D. candidate in Economics at Trinity College Dublin.
 
-My [research](/research/) focuses on applied microeconomics, with particular interest in media economics, the evolution of norms, and the economics of AI.
+My [research](/research/) focuses on applied microeconomics, with particular interest in the intersection of Media Economics and the Political Economy, the evolution of norms, and the economics of AI.
 
 My [ML projects](/projects/) focus on the creation of large-scale historical text datasets using advanced machine learning techniques, including neural networks and transformer models. 
 
