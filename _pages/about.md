@@ -7,7 +7,7 @@ redirect_from:
   - /about.html
 ---
 
-I am a Ph.D. candidate in Economics at Trinity College Dublin. I am on the 2026 economics job market.
+I am a Ph.D. candidate in Economics at Trinity College Dublin. I am on the 2026 economics job market. [JMP](/research/)
 
 My [research](/research/) focuses on applied microeconomics, with particular interest in the intersection of Media Economics and the Political Economy, the evolution of norms, and the economics of AI.
 
