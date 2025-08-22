@@ -34,9 +34,9 @@ This paper provides the first causal evidence that upstream infrastructure provi
 </p>
 
 <p style="display: flex; justify-content: space-between;">
-  <img src="/images/paper2/image 1.png" alt="" style="width: 30%;">
-  <img src="/images/paper2/image 2.png" alt="" style="width: 30%;">
- <img src="/images/paper2/image 3.png" alt="" style="width: 30%;">
+  <img src="/images/paper2/image1.png" alt="" style="width: 30%;">
+  <img src="/images/paper2/image2.png" alt="" style="width: 30%;">
+ <img src="/images/paper2/image3.png" alt="" style="width: 30%;">
 </p>
 
 **From the Pulpit to the Polls: The Electoral Consequences of Christian Talk Radio**
@@ -45,8 +45,8 @@ This paper examines the impact of Salem Communications’ rapid expansion of Chr
 </p>
 
 <p style="display: flex; justify-content: space-between;">
-  <img src="/images/paper3/image 1.png" alt="" style="width: 30%;">
-  <img src="/images/paper3/image 2.png" alt="" style="width: 30%;">
+  <img src="/images/paper3/image1.png" alt="" style="width: 30%;">
+  <img src="/images/paper3/image2.png" alt="" style="width: 30%;">
 </p>
 
 
