@@ -6,7 +6,7 @@ author_profile: true
 ---
 
 {% include base_path %}
-<h1 style="font-size: 2em; font-weight: bold;">Job Market Paper 1</h1>
+<h1 style="font-size: 2em; font-weight: bold;">Job Market Paper</h1>
 
 **Black by Popular Demand: Media, Competition and the Evolution of a Social Norm**
 [Latest Draft](https://www.dropbox.com/scl/fi/5rc12c27n73s4t93m2rrt/Black-by-Popular-Demand-Media-Competition-and-the-Evolution-of-a-Social-Norm.pdf?rlkey=v18efnxlps72bwb59faut65qo&dl=0)
@@ -33,8 +33,6 @@ What role do economic incentives play in social change? I study how media, respo
 This paper provides the first causal evidence that upstream infrastructure providers can reshape social media discourse by enforcing content moderation through access-based leverage. I develop a simple vertical governance model showing how a distributor trades off scandal risk and enforcement costs when setting moderation thresholds, and how platforms decide whether to comply or exit. Guided by this framework, I exploit a 2022 update to Google’s Play Store policy requiring stricter removal of violent threats and misinformation, along with variation in platform exposure across three similar `Alt-Tech' social media platforms, within a triple-differences design. Using a novel panel of over 28 million posts from 62,000 users, I find that threatening content declined sharply and persistently on the exposed platforms, particularly among high-risk users. These effects are not explained by user self-censorship, public awareness, contemporaneous events, or selective data loss. I also document significant reductions in lawful but politically sensitive narratives, including election denial and January 6 insurrection commentary. The findings show how infrastructure-level enforcement can durably alter the boundaries of permissible speech across platforms, contributing to literatures on platform governance, vertical restraints in digital markets, and the institutional foundations of online discourse.
 </p>
 
-</p>
-
 <p style="display: flex; justify-content: space-between;">
   <img src="/images/paper2/image 1.png" alt="" style="width: 30%;">
   <img src="/images/paper2/image 2.png" alt="" style="width: 30%;">
@@ -44,8 +42,6 @@ This paper provides the first causal evidence that upstream infrastructure provi
 **From the Pulpit to the Polls: The Electoral Consequences of Christian Talk Radio**
 <p style="text-align: justify;">
 This paper examines the impact of Salem Communications’ rapid expansion of Christian-conservative radio on voter turnout and Republican vote share in U.S. presidential elections. Leveraging data on station acquisitions, technical specifications, and local topography, I identify exogenous variation in radio signal strength using a strategy adapted from Olken (2009). I construct counterfactual signal-strength measures for each county in the absence of terrain obstacles and compare them to observed reception, thereby isolating the portion of Salem’s broadcasts plausibly unrelated to underlying political trends. Linking these signal data to county-level voting records and measures of evangelical congregations, I find that increased Salem exposure is associated with a statistically significant rise in the Republican share of the vote. Results suggest that areas with sizeable evangelical populations are more sensitive to conservative radio programming, revealing the role religiously oriented media can play in political mobilisation. By highlighting how regulatory changes, particularly the end of the Fairness Doctrine and the 1996 Telecommunications Act, enabled the proliferation of partisan radio networks, the findings contribute to a broader literature on media influence, religious mobilisation, and electoral behaviour.
-</p>
-
 </p>
 
 <p style="display: flex; justify-content: space-between;">
