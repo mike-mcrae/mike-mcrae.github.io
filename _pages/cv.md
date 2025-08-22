@@ -7,4 +7,4 @@ redirect_from:
   - /resume
 ---
 
-You can find my CV [here.](https://www.dropbox.com/scl/fi/78dkt7wjuznnvchgprwlw/CV-2025-stable.pdf?rlkey=azclgiaf274hv3537kymg7kny&dl=0)
+You can find my CV [here.](/CV/Mike%20McRae%20CV%20(2025).pdf)
