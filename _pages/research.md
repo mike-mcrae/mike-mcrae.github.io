@@ -35,9 +35,9 @@ This paper provides the first causal evidence that upstream infrastructure provi
 </p>
 
 <p style="display: flex; justify-content: space-between;">
-  <img src="/images/race_dict_monthly_pres.svg" alt="Race Dictionary Monthly" style="width: 30%;">
-  <img src="/images/V589_event_Q1_Q4.svg" alt="Event Study Q1-Q4" style="width: 30%;">
- <img src="/images/ES - pos_agency_pos_sent_Local.svg" alt="Race Dictionary Monthly" style="width: 30%;">
+  <img src="/images/paper2/image 1.png" alt="" style="width: 30%;">
+  <img src="/images/paper2/image 2.png" alt="" style="width: 30%;">
+ <img src="/images/paper2/image 3.png" alt="" style="width: 30%;">
 </p>
 
 **From the Pulpit to the Polls: The Electoral Consequences of Christian Talk Radio**
