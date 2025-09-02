@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.9.1)  22 AUG 2025 11:44
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.9.1)  2 SEP 2025 09:06
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -541,9 +541,9 @@ Overfull \hbox (10.0pt too wide) in paragraph at lines 32--33
  []
 
 LaTeX Font Info:    Faking \texteuro for font family clm2j
-(Font)              in TS1 encoding on input line 106.
-LaTeX Font Info:    Faking \texteuro for font family clm2j
 (Font)              in TS1 encoding on input line 107.
+LaTeX Font Info:    Faking \texteuro for font family clm2j
+(Font)              in TS1 encoding on input line 108.
 [1
 
 {/usr/local/texlive/2023/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{/usr/loc
@@ -557,18 +557,18 @@ Package rerunfilecheck Info: File `"Mike McRae CV (2025)".out' has not changed.
 Here is how much of TeX's memory you used:
  11996 strings out of 476025
  187666 string characters out of 5790018
- 1870388 words of memory out of 5000000
+ 1871388 words of memory out of 5000000
  32234 multiletter control sequences out of 15000+600000
  543723 words of font info for 61 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 72i,8n,76p,1211b,494s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 72i,8n,76p,1211b,496s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmb10.pfb>
 </usr/local/texlive/2023/texmf-dist/fonts/type1/public/sansmathfonts/cmssbx12.p
 fb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/lm/lmbx10.pfb></usr/l
 ocal/texlive/2023/texmf-dist/fonts/type1/public/lm/lmbx12.pfb></usr/local/texli
 ve/2023/texmf-dist/fonts/type1/public/lm/lmr10.pfb></usr/local/texlive/2023/tex
 mf-dist/fonts/type1/public/lm/lmr7.pfb>
-Output written on "Mike McRae CV (2025).pdf" (2 pages, 122953 bytes).
+Output written on "Mike McRae CV (2025).pdf" (2 pages, 123000 bytes).
 PDF statistics:
  96 PDF objects out of 1000 (max. 8388607)
  74 compressed objects within 1 object stream
