@@ -6,7 +6,7 @@ author_profile: true
 ---
 
 {% include base_path %}
-<h1 style="font-size: 2em; font-weight: bold;">Job Market Paper</h1>
+<h1 style="font-size: 2em; font-weight: bold;">Job Market Paper 1</h1>
 
 **Black by Popular Demand: Media, Competition and the Evolution of a Social Norm**
 [Latest Draft](https://www.dropbox.com/scl/fi/5rc12c27n73s4t93m2rrt/Black-by-Popular-Demand-Media-Competition-and-the-Evolution-of-a-Social-Norm.pdf?rlkey=v18efnxlps72bwb59faut65qo&dl=0)
@@ -24,9 +24,8 @@ What role do economic incentives play in social change? I study how market force
 </p>
 
 
-
-<h1 style="font-size: 2em; font-weight: bold;">Work in Progress</h1>
-
+{% include base_path %}
+<h1 style="font-size: 2em; font-weight: bold;">Job Market Paper 2</h1>
 
 **Vertical Governance of Online Speech: Evidence from Google’s Moderation Mandate [Solo-Authored]**
 [Latest Draft](https://www.dropbox.com/scl/fi/4syz4glhavu1o07lmroey/0.-Vertical-Governance-of-Online-Speech.pdf?rlkey=wn1w7um4q8xx11ceqdgp9zlt9&dl=0)
@@ -40,6 +39,8 @@ This paper provides the first causal evidence that upstream infrastructure provi
   <img src="/images/paper2/Image2.svg" alt="" style="width: 30%;">
  <img src="/images/paper2/Image3.svg" alt="" style="width: 30%;">
 </p>
+
+<h1 style="font-size: 2em; font-weight: bold;">Work in Progress</h1>
 
 **From the Pulpit to the Polls: The Electoral Consequences of Christian Talk Radio [Solo-Authored]**
 <p style="text-align: justify;">
