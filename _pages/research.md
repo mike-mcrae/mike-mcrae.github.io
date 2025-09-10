@@ -47,6 +47,8 @@ This paper shows that infrastructure providers can reshape online discourse by e
 
 <p style="text-align: justify;">
 This project examines how voters and policymakers respond to external threats, focusing on the political and military consequences of the 1962 Cuban Missile Crisis. Using novel measures of local media exposure and exogenous variation in threat salience, we estimate the crisis’s impact on electoral participation, partisan support, congressional behavior, and military service.
+</p>
+
 
 <h1 style="font-size: 2em; font-weight: bold;">Work in Progress</h1>
 
