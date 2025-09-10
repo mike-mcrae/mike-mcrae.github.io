@@ -47,7 +47,7 @@ This paper provides the first causal evidence that upstream infrastructure provi
 **The Political Effects of Threats to the Nation: Evidence from the Cuban Missile Crisis (joint with [Tommaso Colussi](https://sites.google.com/site/colussitom/))**
 
 <p style="text-align: justify;">
-This project investigates how voters and policymakers respond to existential threats to the nation by studying the political consequences of the 1962 Cuban Missile Crisis. We combine novel measures of local media exposure with exogenous variation in threat salience to estimate the effects of the crisis on electoral participation, partisan support, congressional behavior, and downstream military service. Our identification strategy exploits the geography of missile range: only U.S. localities within 1,000 nautical miles from Cuba could be targeted; cross-county variation in newspaper coverage of the crisis; and variation in newspaper exposure to newswires in an IV strategy. 
+This project investigates how voters and policymakers respond to existential threats to the nation by studying the political consequences of the 1962 Cuban Missile Crisis. We combine novel measures of local media exposure with exogenous variation in threat salience to estimate the effects of the crisis on electoral participation, partisan support, congressional behavior, and downstream military service. Our identification strategy exploits the geography of missile range, cross-county variation in newspaper coverage of the crisis and variation in newspaper exposure to newswires in an IV DiD strategy. 
 
 <h1 style="font-size: 2em; font-weight: bold;">Work in Progress</h1>
 
