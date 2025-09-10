@@ -56,6 +56,7 @@ This project examines how voters and policymakers respond to external threats, f
 [Draft Coming Soon!]
 <p style="text-align: justify;">
 This paper studies the political effects of Christian-conservative radio expansion in the United States. Using variation in radio signal strength driven by topography and station acquisitions, I link exposure to county-level voting records and evangelical presence. Greater exposure increased Republican vote share, especially in areas with larger evangelical populations, highlighting how deregulation enabled partisan religious media to shape electoral outcomes.
+</p>
 
 <p style="display: flex; justify-content: center; gap: 6rem;">
   <img src="/images/paper3/image1.png" alt="" style="width: 30%; height:auto;">
