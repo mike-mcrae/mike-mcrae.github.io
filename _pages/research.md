@@ -87,7 +87,7 @@ This paper examines how climate shock-induced migration shapes the diffusion of 
 (joint with <a href="https://matteopograxha.com/" style="color: grey; text-decoration: none;">Matteo Pograxha</a>)
 </p>
 
-This paper examines whether newspapers selectively cover climate science in ways that align with their audiences’ political priors, independent of article quality, shedding light on how media shape public perceptions of climate change
+This paper examines whether newspapers selectively cover climate science in ways that align with their audiences’ political priors, independent of article quality, shedding light on how media shape public perceptions of climate change.
 
 ### <u>AI</u>
 
@@ -96,7 +96,10 @@ This paper examines whether newspapers selectively cover climate science in ways
 This paper explores how biases can affect LLM-assisted research and shows how methodological design can improve the reliability of AI-based textual analysis in the social sciences.
 
 ### <u>Development</u>
-<span style="color: orange;"><b>9. When to baseline - The impact of lottery allocation household outcomes in a highly vulnerable setting (Joint with C. M. Fernandez, A. Guariso, M. Holmlund, T. Mitchell, and C. Newman.)</b></span>
+<span style="color: orange;"><b>9. When to baseline - The impact of lottery allocation household outcomes in a highly vulnerable setting ()</b></span>
+<p style="color: grey; font-style: italic; margin-top: -10px;">
+(joint with C. M. Fernandez, A. Guariso, M. Holmlund, T. Mitchell, and C. Newman.)
+</p>
 
 <p style="text-align: justify;">
 This paper examines whether public lottery allocation in field experiments affects survey outcomes, using evidence from villages in Niger.
