@@ -41,8 +41,6 @@ This paper provides the first causal evidence that upstream infrastructure provi
  <img src="/images/paper2/Image3.svg" alt="" style="width: 30%;">
 </p>
 
-<h1 style="font-size: 2em; font-weight: bold;">Work in Progress</h1>
-
 
 **The Political Effects of Threats to the Nation: Evidence from the Cuban Missile Crisis (joint with [Tommaso Colussi](https://sites.google.com/site/colussitom/))**
 
