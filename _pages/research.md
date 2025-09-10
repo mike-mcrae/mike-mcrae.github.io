@@ -6,7 +6,7 @@ author_profile: true
 ---
 
 {% include base_path %}
-<h1 style="font-size: 2em; font-weight: bold;">Job Market Paper 1</h1>
+<h1 style="font-size: 2em; font-weight: bold;">Job Market Paper</h1>
 
 **Black by Popular Demand: Media, Competition and the Evolution of a Social Norm [Solo-Authored]**
 [Latest Draft](https://www.dropbox.com/scl/fi/5rc12c27n73s4t93m2rrt/Black-by-Popular-Demand-Media-Competition-and-the-Evolution-of-a-Social-Norm.pdf?rlkey=v18efnxlps72bwb59faut65qo&dl=0)
@@ -25,7 +25,7 @@ What role do economic incentives play in social change? I study how market force
 
 
 {% include base_path %}
-<h1 style="font-size: 2em; font-weight: bold;">Job Market Paper 2</h1>
+<h1 style="font-size: 2em; font-weight: bold;">Working Papers</h1>
 
 **Vertical Governance of Online Speech: Evidence from Google’s Moderation Mandate [Solo-Authored]**
 [Latest Draft](https://www.dropbox.com/scl/fi/4syz4glhavu1o07lmroey/0.-Vertical-Governance-of-Online-Speech.pdf?rlkey=wn1w7um4q8xx11ceqdgp9zlt9&dl=0)
@@ -43,6 +43,14 @@ This paper provides the first causal evidence that upstream infrastructure provi
 
 <h1 style="font-size: 2em; font-weight: bold;">Work in Progress</h1>
 
+
+**The Political Effects of Threats to the Nation: Evidence from the Cuban Missile Crisis (joint with [Tommaso Colussi](https://sites.google.com/site/colussitom/))**
+
+<p style="text-align: justify;">
+This project investigates how voters and policymakers respond to existential threats to the nation by studying the political consequences of the 1962 Cuban Missile Crisis. We combine novel measures of local media exposure with exogenous variation in threat salience to estimate the effects of the crisis on electoral participation, partisan support, congressional behavior, and downstream military service. Our identification strategy exploits the geography of missile range: only U.S. localities within 1,000 nautical miles from Cuba could be targeted; cross-county variation in newspaper coverage of the crisis; and variation in newspaper exposure to newswires in an IV strategy. 
+
+<h1 style="font-size: 2em; font-weight: bold;">Work in Progress</h1>
+
 **From the Pulpit to the Polls: The Electoral Consequences of Christian Talk Radio [Solo-Authored]**
 [Draft Coming Soon!]
 <p style="text-align: justify;">
@@ -53,6 +61,8 @@ This paper examines the impact of Salem Communications’ rapid expansion of Chr
   <img src="/images/paper3/image1.png" alt="" style="width: 30%; height:auto;">
   <img src="/images/paper3/image2.png" alt="" style="width: 30%; height:auto;">
 </p>
+
+
 
 
 **The Introduction and Reduction of Estimation Bias in AI Assisted Research [Solo-Authored]**
