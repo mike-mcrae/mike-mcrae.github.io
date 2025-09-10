@@ -78,7 +78,7 @@ This paper studies the political effects of Christian-conservative radio expansi
 This paper examines how climate shock-induced migration shapes the diffusion of climate change beliefs across international borders.
 </p>
 
-<span style="color: orange;"><b>6. The Introduction and Reduction of Estimation Bias in AI Assisted Research [Solo-Authored]</b></span>
+<span style="color: orange;"><b>6. The Introduction and Reduction of Estimation Bias in AI Assisted Research</b></span>
 
 This paper explores how biases can affect LLM-assisted research and shows how methodological design can improve the reliability of AI-based textual analysis in the social sciences.
 
