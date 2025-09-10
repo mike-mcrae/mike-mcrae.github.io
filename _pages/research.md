@@ -64,8 +64,8 @@ This paper studies the political effects of Christian-conservative radio expansi
 </p>
 
 <p style="display: flex; justify-content: center; gap: 6rem;">
-  <img src="/images/paper3/image1.png" alt="" style="width: 30%; height:auto;">
-  <img src="/images/paper3/image2.png" alt="" style="width: 30%; height:auto;">
+  <img src="/images/paper3/image1.png" alt="" style="width: 25%; height:auto;">
+  <img src="/images/paper3/image2.png" alt="" style="width: 25%; height:auto;">
 </p>
 
 <span style="color: orange;"><b>5. Editorial Bias: Evidence from Historical Newspapers</b></span>
