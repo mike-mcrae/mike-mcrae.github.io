@@ -52,15 +52,12 @@ This project examines how voters and policymakers respond to external threats, f
 **From the Pulpit to the Polls: The Electoral Consequences of Christian Talk Radio [Solo-Authored]**
 [Draft Coming Soon!]
 <p style="text-align: justify;">
-This paper examines the impact of Salem Communications’ rapid expansion of Christian-conservative radio on voter turnout and Republican vote share in U.S. presidential elections. Leveraging data on station acquisitions, technical specifications, and local topography, I identify exogenous variation in radio signal strength using a strategy adapted from Olken (2009). I construct counterfactual signal-strength measures for each county in the absence of terrain obstacles and compare them to observed reception, thereby isolating the portion of Salem’s broadcasts plausibly unrelated to underlying political trends. Linking these signal data to county-level voting records and measures of evangelical congregations, I find that increased Salem exposure is associated with a statistically significant rise in the Republican share of the vote. Results suggest that areas with sizeable evangelical populations are more sensitive to conservative radio programming, revealing the role religiously oriented media can play in political mobilisation. By highlighting how regulatory changes, particularly the end of the Fairness Doctrine and the 1996 Telecommunications Act, enabled the proliferation of partisan radio networks, the findings contribute to a broader literature on media influence, religious mobilisation, and electoral behaviour.
-</p>
+This paper studies the political effects of Christian-conservative radio expansion in the United States. Using variation in radio signal strength driven by topography and station acquisitions, I link exposure to county-level voting records and evangelical presence. Greater exposure increased Republican vote share, especially in areas with larger evangelical populations, highlighting how deregulation enabled partisan religious media to shape electoral outcomes.
 
 <p style="display: flex; justify-content: center; gap: 6rem;">
   <img src="/images/paper3/image1.png" alt="" style="width: 30%; height:auto;">
   <img src="/images/paper3/image2.png" alt="" style="width: 30%; height:auto;">
 </p>
-
-
 
 
 **The Introduction and Reduction of Estimation Bias in AI Assisted Research [Solo-Authored]**
