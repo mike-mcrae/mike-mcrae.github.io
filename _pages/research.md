@@ -6,9 +6,9 @@ author_profile: true
 ---
 
 {% include base_path %}
-<h1 style="font-size: 2em; font-weight: bold;">Job Market Paper</h1>
+<h1 style="font-size: 2em; font-weight: bold; color: teal;">Job Market Paper</h1>
 
-**Black by Popular Demand: Media, Competition and the Evolution of a Social Norm [Solo-Authored]**
+**1. Black by Popular Demand: Media, Competition and the Evolution of a Social Norm [Solo-Authored]**
 [Latest Draft](https://www.dropbox.com/scl/fi/5rc12c27n73s4t93m2rrt/Black-by-Popular-Demand-Media-Competition-and-the-Evolution-of-a-Social-Norm.pdf?rlkey=v18efnxlps72bwb59faut65qo&dl=0)
 
 <p style="text-align: justify;">
@@ -25,9 +25,9 @@ What role do economic incentives play in social change? I study how market force
 
 
 {% include base_path %}
-<h1 style="font-size: 2em; font-weight: bold;">Working Papers</h1>
+<h1 style="font-size: 2em; font-weight: bold; color: teal;">Working Papers</h1>
 
-**Vertical Governance of Online Speech: Evidence from Google’s Moderation Mandate [Solo-Authored]**
+**2. Vertical Governance of Online Speech: Evidence from Google’s Moderation Mandate [Solo-Authored]**
 [Latest Draft](https://www.dropbox.com/scl/fi/4syz4glhavu1o07lmroey/0.-Vertical-Governance-of-Online-Speech.pdf?rlkey=wn1w7um4q8xx11ceqdgp9zlt9&dl=0)
 
 <p style="text-align: justify;">
@@ -43,16 +43,16 @@ This paper shows that infrastructure providers can reshape online discourse by e
 </p>
 
 
-**The Political Effects of Threats to the Nation: Evidence from the Cuban Missile Crisis (joint with [Tommaso Colussi](https://sites.google.com/site/colussitom/))**
+**3. The Political Effects of Threats to the Nation: Evidence from the Cuban Missile Crisis (joint with [Tommaso Colussi](https://sites.google.com/site/colussitom/))**
 
 <p style="text-align: justify;">
 This project examines how voters and policymakers respond to external threats, focusing on the political and military consequences of the 1962 Cuban Missile Crisis. Using novel measures of local media exposure and exogenous variation in threat salience, we estimate the crisis’s impact on electoral participation, partisan support, congressional behavior, and military service.
 </p>
 
 
-<h1 style="font-size: 2em; font-weight: bold;">Work in Progress</h1>
+<h1 style="font-size: 2em; font-weight: bold; color: teal;">Work in Progress</h1>
 
-**From the Pulpit to the Polls: The Electoral Consequences of Christian Talk Radio [Solo-Authored]**
+**4. From the Pulpit to the Polls: The Electoral Consequences of Christian Talk Radio [Solo-Authored]**
 [Draft Coming Soon!]
 <p style="text-align: justify;">
 This paper studies the political effects of Christian-conservative radio expansion in the United States. Using variation in radio signal strength driven by topography and station acquisitions, I link exposure to county-level voting records and evangelical presence. Greater exposure increased Republican vote share, especially in areas with larger evangelical populations, highlighting how deregulation enabled partisan religious media to shape electoral outcomes.
@@ -64,20 +64,20 @@ This paper studies the political effects of Christian-conservative radio expansi
 </p>
 
 
-**The Introduction and Reduction of Estimation Bias in AI Assisted Research [Solo-Authored]**
+**5. The Introduction and Reduction of Estimation Bias in AI Assisted Research [Solo-Authored]**
 
 This paper explores how biases can affect LLM-assisted research and shows how methodological design can improve the reliability of AI-based textual analysis in the social sciences.
 
-**Editorial Bias: Evidence from Historical Newspapers**
+**6. Editorial Bias: Evidence from Historical Newspapers**
 
 This paper explores editorial bias showing systematic differences in language choices when newspapers published the same wire articles.
 
-**Selective Science: How Media Bias Shapes Climate Change Narratives (Joint with M. Pograxha)**
+**7. Selective Science: How Media Bias Shapes Climate Change Narratives (Joint with M. Pograxha)**
 
 This paper examines whether newspapers selectively cover climate science in ways that align with their audiences’ political priors, independent of article quality, shedding light on how media shape public perceptions of climate change
 
 ### <u>Development</u>
-**When to baseline - The impact of lottery allocation household outcomes in a highly vulnerable setting (Joint with C. M. Fernandez, A. Guariso, M. Holmlund, T. Mitchell, and C. Newman.)**
+**8. When to baseline - The impact of lottery allocation household outcomes in a highly vulnerable setting (Joint with C. M. Fernandez, A. Guariso, M. Holmlund, T. Mitchell, and C. Newman.)**
 
 <p style="text-align: justify;">
 This paper examines whether public lottery allocation in field experiments affects survey outcomes, using evidence from villages in Niger.
