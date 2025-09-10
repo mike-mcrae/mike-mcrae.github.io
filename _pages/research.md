@@ -66,20 +66,19 @@ This paper studies the political effects of Christian-conservative radio expansi
 
 **The Introduction and Reduction of Estimation Bias in AI Assisted Research [Solo-Authored]**
 
- When do societal and historical biases introduce measurement error in LLM assisted research? How can we reduce or eliminate these biases? In this paper, I demonstrate how careful methodological design can leverage the power of LLMs while preserving objectivity, thereby enhancing the reliability of AI-assisted textual analysis in economics and the social sciences.
+This paper explores how biases can affect LLM-assisted research and shows how methodological design can improve the reliability of AI-based textual analysis in the social sciences.
 
 **Editorial Bias: Evidence from Historical Newspapers**
 
-This paper provides evidence of racial biases in newspaper editor content decisions. It examines subtle variation in language choice across newspapers when publishing the same underlying wire articles, revealing systematic differences in editorial choices. 
+This paper explores editorial bias showing systematic differences in language choices when newspapers published the same wire articles.
 
 **Selective Science: How Media Bias Shapes Climate Change Narratives (Joint with M. Pograxha)**
 
-We investigate how the alignment between scientific narratives in academic articles about climate change and the priors of media consumers influences newspaper coverage. Using a comprehensive dataset of academic papers, media outlets’ political alignments, and metrics of article quality, we explore whether media outlets selectively highlight scientific evidence that confirms their audience's priors, independent of quality.  This research informs our understanding of how media shapes public perceptions of climate science and highlights pathways for improving the dissemination of accurate scientific information.
-
+This paper examines whether newspapers selectively cover climate science in ways that align with their audiences’ political priors, independent of article quality, shedding light on how media shape public perceptions of climate change
 
 ### <u>Development</u>
 **When to baseline - The impact of lottery allocation household outcomes in a highly vulnerable setting (Joint with C. M. Fernandez, A. Guariso, M. Holmlund, T. Mitchell, and C. Newman.)**
 
 <p style="text-align: justify;">
-It is considered 'good practice' to collect a baseline survey for the purposes of improving statistical power, assessing baseline randomised group balance, and correcting for possible attrition, as well as for the purposes of heterogeneity analysis at end-line. However, it is common in field experiments to randomise treatment status in the public domain to allow community and government scrutiny of the 'fairness' of allocation. This approach can create constraints on the timing of baseline survey implementation. We analyse whether public lottery allocation effects respondents' outcomes in a sample of villages in Niger.
+This paper examines whether public lottery allocation in field experiments affects survey outcomes, using evidence from villages in Niger.
 </p>
