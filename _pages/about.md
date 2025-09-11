@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "Mike McRae - Economist - Trinity College Dublin"
+title: "Mike McRae - Economist"
 description: "Mike McRae is a Ph.D. candidate in Economics at Trinity College Dublin, on the 2026 job market. His work focuses on applied microeconomics, media, political economy, and AI."
 author_profile: true
 redirect_from: 
