@@ -96,7 +96,7 @@ This paper examines whether newspapers selectively cover climate science in ways
 This paper explores how biases can affect LLM-assisted research and shows how methodological design can improve the reliability of AI-based textual analysis in the social sciences.
 
 ### <u>Development</u>
-<span style="color: orange;"><b>9. When to baseline - The impact of lottery allocation household outcomes in a highly vulnerable setting ()</b></span>
+<span style="color: orange;"><b>9. When to baseline - The impact of lottery allocation household outcomes in a highly vulnerable setting</b></span>
 <p style="color: grey; font-style: italic; margin-top: -10px;">
 (joint with C. M. Fernandez, A. Guariso, M. Holmlund, T. Mitchell, and C. Newman.)
 </p>
