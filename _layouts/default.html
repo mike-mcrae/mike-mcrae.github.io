@@ -10,6 +10,21 @@ layout: compress
     {% include head.html %}
     {% include head/custom.html %}
     {% seo %}
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "ProfilePage",
+      "mainEntity": {
+        "@type": "Person",
+        "name": "Mike McRae",
+        "url": "https://mike-mcrae.com",
+        "affiliation": {
+          "@type": "Organization",
+          "name": "Trinity College Dublin"
+        }
+      }
+    }   
+    </script>
   </head>
 
   <body>
