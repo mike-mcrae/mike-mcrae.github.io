@@ -23,3 +23,7 @@ My [ML projects](/projects/) focus on the creation of large-scale historical tex
 Feel free to check out my [CV](/cv/) for more details about my work and academic background.
 
 If you’d like to reach out, you can [email me](mailto:mcraemi@tcd.ie).
+
+<p style="font-size: 0.9em; color: #555;">
+  I am also known as Michael McRae.
+</p>
