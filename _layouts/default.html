@@ -9,7 +9,29 @@ layout: compress
   <head>
     {% include head.html %}
     {% include head/custom.html %}
-    {% seo %}
+
+    <!-- Basic Metadata -->
+    <title>{{ page.title | default: site.title }}</title>
+    <meta name="description" content="{{ page.description | default: site.description }}">
+    <meta name="author" content="Mike McRae">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="canonical" href="{{ page.url | absolute_url }}">
+
+    <!-- Open Graph (Facebook/LinkedIn) -->
+    <meta property="og:title" content="{{ page.title | default: site.title }}">
+    <meta property="og:description" content="{{ page.description | default: site.description }}">
+    <meta property="og:type" content="profile">
+    <meta property="og:url" content="{{ page.url | absolute_url }}">
+    <meta property="og:image" content="{{ site.url }}/images/headshot.png">
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:creator" content="@mcrae_mike">
+    <meta name="twitter:title" content="{{ page.title | default: site.title }}">
+    <meta name="twitter:description" content="{{ page.description | default: site.description }}">
+    <meta name="twitter:image" content="{{ site.url }}/images/headshot.png">
+
+    <!-- Structured Data (JSON-LD) -->
     <script type="application/ld+json">
     {
       "@context": "https://schema.org",
@@ -28,7 +50,8 @@ layout: compress
           "https://github.com/mike-mcrae",
           "https://twitter.com/mcrae_mike",
           "https://orcid.org/0000-0001-8477-2291"
-        ]
+        ],
+        "image": "https://mike-mcrae.com/images/headshot.png"
       }
     }
     </script>
