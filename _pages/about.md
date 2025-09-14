@@ -7,11 +7,32 @@ redirect_from:
   - /about/
   - /about.html
 lang: en
-seo:
-  type: "ProfilePage"
-  name: "Mike McRae"
-  image: "https://mike-mcrae.github.io/images/headshot.png"
 ---
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ProfilePage",
+  "mainEntity": {
+    "@type": "Person",
+    "name": "Mike McRae",
+    "alternateName": "Michael McRae",
+    "url": "https://mike-mcrae.com",
+    "jobTitle": "PhD Candidate in Economics",
+    "affiliation": {
+      "@type": "Organization",
+      "name": "Trinity College Dublin"
+    },
+    "image": "https://mike-mcrae.github.io/images/headshot.png",
+    "sameAs": [
+      "https://github.com/mike-mcrae",
+      "https://twitter.com/mcrae_mike",
+      "https://orcid.org/0000-0001-8477-2291"
+    ]
+  }
+}
+</script>
+
 I am a Ph.D. candidate in Economics at Trinity College Dublin. I am on the 2026 economics job market. [JMP](https://www.dropbox.com/scl/fi/5rc12c27n73s4t93m2rrt/Black-by-Popular-Demand-Media-Competition-and-the-Evolution-of-a-Social-Norm.pdf?rlkey=v18efnxlps72bwb59faut65qo&dl=0)
 
 <!-- I am a Ph.D. candidate in Economics at Trinity College Dublin. I am on the 2026 economics job market with 2 solo-authored job market papers. [JMP 1](https://www.dropbox.com/scl/fi/5rc12c27n73s4t93m2rrt/Black-by-Popular-Demand-Media-Competition-and-the-Evolution-of-a-Social-Norm.pdf?rlkey=v18efnxlps72bwb59faut65qo&dl=0) [JMP 2](https://www.dropbox.com/scl/fi/4syz4glhavu1o07lmroey/0.-Vertical-Governance-of-Online-Speech.pdf?rlkey=wn1w7um4q8xx11ceqdgp9zlt9&dl=0) -->
