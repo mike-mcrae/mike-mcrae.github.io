@@ -339,6 +339,9 @@ tag_archive:
 #     category: /categories/:name/
 #     tag: /tags/:name/
 
+seo:
+  json_ld: false
+
 
 # HTML Compression
 # - http://jch.penibelst.de/
