@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.9.1)  13 SEP 2025 09:49
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.9.1)  24 SEP 2025 19:47
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -541,11 +541,11 @@ Overfull \hbox (10.0pt too wide) in paragraph at lines 32--33
  []
 
 LaTeX Font Info:    Faking \texteuro for font family clm2j
-(Font)              in TS1 encoding on input line 118.
-LaTeX Font Info:    Faking \texteuro for font family clm2j
-(Font)              in TS1 encoding on input line 119.
-LaTeX Font Info:    Faking \texteuro for font family clm2j
 (Font)              in TS1 encoding on input line 120.
+LaTeX Font Info:    Faking \texteuro for font family clm2j
+(Font)              in TS1 encoding on input line 121.
+LaTeX Font Info:    Faking \texteuro for font family clm2j
+(Font)              in TS1 encoding on input line 122.
 [1
 
 {/usr/local/texlive/2023/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{/usr/loc
@@ -570,7 +570,7 @@ fb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/lm/lmbx10.pfb></usr/l
 ocal/texlive/2023/texmf-dist/fonts/type1/public/lm/lmbx12.pfb></usr/local/texli
 ve/2023/texmf-dist/fonts/type1/public/lm/lmr10.pfb></usr/local/texlive/2023/tex
 mf-dist/fonts/type1/public/lm/lmr7.pfb>
-Output written on "Mike McRae CV (2025).pdf" (2 pages, 123946 bytes).
+Output written on "Mike McRae CV (2025).pdf" (2 pages, 124334 bytes).
 PDF statistics:
  100 PDF objects out of 1000 (max. 8388607)
  78 compressed objects within 1 object stream
