@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.9.1)  5 SEP 2025 15:52
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.9.1)  8 OCT 2025 15:53
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -425,12 +425,13 @@ File: l3backend-pdftex.def 2023-01-16 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count286
 \l__pdf_internal_box=\box60
 )
-No file "Mike McRae CV (2025)-".aux.
+(./Mike McRae CV (2025)-.aux)
 \openout1 = `"Mike McRae CV (2025)-.aux"'.
 
 LaTeX Font Info:    Checking defaults for OML/lmm/m/it on input line 18.
 LaTeX Font Info:    Trying to load font information for OML+lmm on input line 1
 8.
+
 (/usr/local/texlive/2023/texmf-dist/tex/latex/lm/omllmm.fd
 File: omllmm.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
@@ -527,6 +528,8 @@ File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
 Package hyperref Info: Link coloring ON on input line 18.
+
+(./Mike McRae CV (2025)-.out) (./Mike McRae CV (2025)-.out)
 \@outlinefile=\write3
 \openout3 = `"Mike McRae CV (2025)-.out"'.
 
@@ -538,45 +541,39 @@ Overfull \hbox (10.0pt too wide) in paragraph at lines 32--33
  []
 
 LaTeX Font Info:    Faking \texteuro for font family clm2j
-(Font)              in TS1 encoding on input line 108.
+(Font)              in TS1 encoding on input line 112.
 LaTeX Font Info:    Faking \texteuro for font family clm2j
-(Font)              in TS1 encoding on input line 109.
+(Font)              in TS1 encoding on input line 113.
 LaTeX Font Info:    Faking \texteuro for font family clm2j
-(Font)              in TS1 encoding on input line 110.
+(Font)              in TS1 encoding on input line 114.
 [1
 
 {/usr/local/texlive/2023/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{/usr/loc
 al/texlive/2023/texmf-dist/fonts/enc/dvips/cfr-lm/t1-clm.enc}{/usr/local/texliv
 e/2023/texmf-dist/fonts/enc/dvips/cfr-lm/dotdigits-clm.enc}] [2]
 (./Mike McRae CV (2025)-.aux)
-
-Package rerunfilecheck Warning: File `"Mike McRae CV (2025)-".out' has changed.
-
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `"Mike McRae CV (2025)-".out':
-(rerunfilecheck)             Before: <no file>
-(rerunfilecheck)             After:  AFC10546C26EDBB8C03E1D74D805BC62;994.
+Package rerunfilecheck Info: File `"Mike McRae CV (2025)-".out' has not changed
+.
+(rerunfilecheck)             Checksum: AFC10546C26EDBB8C03E1D74D805BC62;994.
  ) 
 Here is how much of TeX's memory you used:
- 11979 strings out of 476025
- 187365 string characters out of 5790018
- 1872388 words of memory out of 5000000
- 32223 multiletter control sequences out of 15000+600000
+ 11996 strings out of 476025
+ 187685 string characters out of 5790018
+ 1871388 words of memory out of 5000000
+ 32234 multiletter control sequences out of 15000+600000
  543723 words of font info for 61 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 72i,8n,76p,1212b,496s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 72i,8n,76p,1212b,504s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmb10.pfb>
 </usr/local/texlive/2023/texmf-dist/fonts/type1/public/sansmathfonts/cmssbx12.p
 fb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/lm/lmbx10.pfb></usr/l
 ocal/texlive/2023/texmf-dist/fonts/type1/public/lm/lmbx12.pfb></usr/local/texli
 ve/2023/texmf-dist/fonts/type1/public/lm/lmr10.pfb></usr/local/texlive/2023/tex
 mf-dist/fonts/type1/public/lm/lmr7.pfb>
-Output written on "Mike McRae CV (2025)-.pdf" (2 pages, 122383 bytes).
+Output written on "Mike McRae CV (2025)-.pdf" (2 pages, 123872 bytes).
 PDF statistics:
- 71 PDF objects out of 1000 (max. 8388607)
- 49 compressed objects within 1 object stream
+ 96 PDF objects out of 1000 (max. 8388607)
+ 74 compressed objects within 1 object stream
  11 named destinations out of 1000 (max. 500000)
- 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 65 words of extra memory for PDF output out of 10000 (max. 10000000)
 
