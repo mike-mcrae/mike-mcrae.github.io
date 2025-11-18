@@ -5,11 +5,10 @@ permalink: /projects/
 author_profile: true
 ---
 
-## Southern Newswire Corpus - Historical Wire Articles (1960–1975)
+## Newspaper text extraction
 Replication, Data, & Models - [GitHub Repository](https://github.com/mike-mcrae/southern-newswires). 
-Preliminary Article - [arXiv](http://arxiv.org/abs/2502.11866) 
 
-The **Southern Newswire Corpus** is a large-scale dataset of historical wire articles from U.S. Southern newspapers, spanning **1960–1975**. It covers multiple wire services (**AP**, **UPI**, and **NEA**) and offers both **raw OCR** and **LLM-corrected** versions. I developed a open-source pipeline tailored for the digitization of historical newspapers, which allows for performing multiple tasks. 
+ I developed a open-source pipeline tailored for the digitization of historical newspapers, which allows for performing multiple tasks. 
 
 **1. Parsing Layout:** Articles, headlines, advertisements, and other content regions are identified from raw newspaper page scans. A newly trained layout detection model using Yolo v10 is introduced and available soon at [GitHub](https://github.com/mike-mcrae/southern-newswires). Articles which span multiple bounding boxes are combined with a rule-based association which uses bounding-box coordinates to merge them into a single structured observation, preserving the headline, author byline (where identifiable), and article text. 
 
@@ -36,18 +35,6 @@ The **Southern Newswire Corpus** is a large-scale dataset of historical wire art
 
 **4. LLM-Based Text Correction:** I developed a text-correction pipeline that uses Llama3.2, a large language model configured for minimal rewriting. Llama3.2 corrects common OCR artefacts such as misread characters, broken words, or stray punctuation, improving text clarity without introducing anachronistic spellings, while preserving paragraph structure and historical language. Corrections are limited to unambiguous OCR errors, ensuring that archaic or dialect terms remain intact.
 
-**Final Dataset:** 9.57 million wire articles from 58 million total articles.  
-**Observations:** article_id, underlying_wire_id, newspaper_title, date, location, headline, author, newswire_service, raw_article, corrected_article, topic.
+**Final Output:** article_id, underlying_wire_id, newspaper_title, date, location, headline, author, newswire_service, raw_article, corrected_article, topic.
 
 ---
-
-## 🛠️ The American Newspaper Corpus (1960–1975) - Coming Soon  
-A **nationwide historical newspaper article corpus** covering **>1000 U.S. newspapers** from **1960–1975**. This dataset offers a comprehensive view of regional newspaper coverage of major events, political shifts, and cultural changes.
-
-### Key Features:
-- **Full Newspaper Archives:** Coverage for articles out of copyright.
-- **Advanced OCR Correction:** Fine-tuned large language models for cleaner text.
-- **Topic and Sentiment Analysis:** Track shifts in media discourse.
-- **Regional Comparisons:** Explore variations by county and political alignment.
-
-🚀 Stay tuned for updates as this dataset develops! 😊
