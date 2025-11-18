@@ -6,7 +6,7 @@ author_profile: true
 ---
 
 ## Newspaper text extraction
-Replication, Data, & Models - [GitHub Repository](https://github.com/mike-mcrae/southern-newswires). 
+Replication, & Models - [GitHub Repository](https://github.com/mike-mcrae/southern-newswires). 
 
  I developed a open-source pipeline tailored for the digitization of historical newspapers, which allows for performing multiple tasks. 
 
