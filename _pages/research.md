@@ -11,7 +11,7 @@ author_profile: true
 <span style="color: orange;"><b>1. Black by Popular Demand: Media, Competition and the Evolution of a Social Norm</b></span> [Latest Draft](https://www.dropbox.com/scl/fi/5rc12c27n73s4t93m2rrt/Black-by-Popular-Demand-Media-Competition-and-the-Evolution-of-a-Social-Norm.pdf?rlkey=v18efnxlps72bwb59faut65qo&dl=0)
 
 <p style="text-align: justify;">
-What role do economic incentives play in social change? This paper examines this question through the lens of local newspaper markets during the U.S. Civil Rights era, following the emergence of the Black Power movement and the associated campaign to replace "Negro" with "Black." Combining text from Southern newspapers (1960–1973) and 1964 newspaper circulation audits, I show that the campaign constitutes a widespread and exogenous shock to media choice of label and narrative portrayal of Black individuals. Local market competition increased the elasticity of supply to ideological demand: accelerating label and narrative diffusion where audiences were receptive, but reinforcing inertia where they were resistant. These effects are not explained by editorial ideology or ownership. I then document that local markets exposed to earlier newspaper adoption of “Black” saw faster growth in Black local officeholding. The findings reveal how market incentives shape the diffusion of social movements.
+What role do economic incentives play in social change? This paper examines this question through the lens of local newspaper markets during the U.S. Civil Rights era, following the emergence of the Black Power movement and the associated campaign to replace "Negro" with "Black." Combining text from Southern newspapers (1960–1973) and 1964 newspaper circulation audits, I show that the campaign constitutes a widespread and exogenous shock to media choice of label and narrative portrayal of Black individuals. Local market competition increased the elasticity of supply to ideological demand: accelerating label and narrative diffusion where audiences were receptive, but reinforcing inertia where they were resistant. These effects are not explained by editorial ideology or ownership. I then document that local markets exposed to earlier newspaper adoption of “Black” saw faster growth in Black local officeholding. The findings reveal how market incentives shape the diffusion of social and political movements.
 
 </p>
 
@@ -54,7 +54,7 @@ This project examines how voters and policymakers respond to external threats, f
 
 
 <h1 style="font-size: 2em; font-weight: bold; color: teal;">Work in Progress</h1>
-### <u>Media & Political</u>
+### <u>Political Economy & Media</u>
 
 <span style="color: orange;"><b>4. From the Pulpit to the Polls: The Electoral Consequences of Christian Talk Radio</b></span>
 
@@ -75,7 +75,7 @@ This paper explores editorial bias showing systematic differences in language ch
 
 <span style="color: orange;"><b>6. Climate on the Move: How Migration Imports Beliefs on Climate Change</b></span>
 <p style="color: grey; font-style: italic; margin-top: -10px;">
-(joint with <a href="https://matteopograxha.com/" style="color: grey; text-decoration: none;">Matteo Pograxha</a>)
+(joint with <a href="https://matteopograxha.com/" style="color: grey; text-decoration: none;">Matteo Pograxha </a> & <a href="https://enricocavallotti.github.io/" style="color: grey; text-decoration: none;">Enrico Cavallotti</a>)
 </p>
 <p style="text-align: justify;">
 This paper examines how climate shock-induced migration shapes the diffusion of climate change beliefs across international borders.
