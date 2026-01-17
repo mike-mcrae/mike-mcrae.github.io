@@ -41,7 +41,7 @@ This paper shows that infrastructure providers can reshape online discourse by e
 
 
 <p style="font-weight: bold; color: orange;">
-3. The Political Effects of Threats to the Nation: Evidence from the Cuban Missile Crisis
+3. The Political Effects of Threats to the Nation: Evidence from the Cuban Missile Crisis [Latest Draft](https://www.dropbox.com/scl/fi/6q8ujp36htawt2qii0yi6/CubanMissiles-1.pdf?rlkey=gt913r34hlhuzdf077e82pk6p&dl=0)
 </p>
 <p style="color: grey; font-style: italic; margin-top: -10px;">
 (joint with <a href="https://sites.google.com/site/colussitom/" style="color: grey; text-decoration: none;">Tommaso Colussi</a>)
