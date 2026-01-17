@@ -41,14 +41,17 @@ This paper shows that infrastructure providers can reshape online discourse by e
 
 
 <p style="font-weight: bold; color: orange;">
-3. The Political Effects of Threats to the Nation: Evidence from the Cuban Missile Crisis</p> [New draft coming soon!] 
-<p style="color: grey; font-style: italic; margin-top: -10px;">
-(joint with <a href="https://sites.google.com/site/colussitom/" style="color: grey; text-decoration: none;">Tommaso Colussi</a>)
+3. The Political Effects of Threats to the Nation: Evidence from the Cuban Missile Crisis <span style="font-weight: normal; color: #777; margin-left: 8px;"> [New draft coming soon] </span>
+</p>
+
+<p style="color: #777; font-style: italic; margin-top: -8px;">
+Joint with <a href="https://sites.google.com/site/colussitom/" style="color: #777; text-decoration: none;">Tommaso Colussi</a>
 </p>
 
 <p style="text-align: justify;">
-This project examines how voters and policymakers respond to external threats, focusing on the political and military consequences of the 1962 Cuban Missile Crisis. Using novel measures of local media exposure and exogenous variation in threat salience, we estimate the crisis’s impact on electoral participation, partisan support, congressional behavior, and military service.
+This project studies how citizens and political institutions respond to sudden, credible external threats. Using the 1962 Cuban Missile Crisis as a natural experiment, and exploiting sharp geographic variation in perceived exposure to nuclear danger, we examine the crisis’s effects on electoral participation, partisan support, congressional behavior, and military service. Novel measures of local media exposure allow us to trace how threat salience translated into political and civic responses across U.S. communities.
 </p>
+
 
 
 
