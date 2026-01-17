@@ -8,7 +8,7 @@ author_profile: true
 {% include base_path %}
 <h1 style="font-size: 2em; font-weight: bold; color: teal;">Job Market Paper</h1>
 
-<span style="color: orange;"><b>1. Black by Popular Demand: Media Competition and the Evolution of a Social Norm</b></span> [Latest Draft](https://www.dropbox.com/scl/fi/5rc12c27n73s4t93m2rrt/Black-by-Popular-Demand-Media-Competition-and-the-Evolution-of-a-Social-Norm.pdf?rlkey=v18efnxlps72bwb59faut65qo&dl=0)
+<span style="color: orange;"><b>1. Black by Popular Demand: Media, Competition and the Evolution of a Social Norm</b></span> [Latest Draft](https://www.dropbox.com/scl/fi/5rc12c27n73s4t93m2rrt/Black-by-Popular-Demand-Media-Competition-and-the-Evolution-of-a-Social-Norm.pdf?rlkey=v18efnxlps72bwb59faut65qo&dl=0)
 
 <p style="text-align: justify;">
 What role do economic incentives play in social change? This paper examines this question through the lens of local newspaper markets during the U.S. Civil Rights era, following the emergence of the Black Power movement and the associated campaign to replace "Negro" with "Black." Combining text from Southern newspapers (1960–1973) and 1964 newspaper circulation audits, I show that the campaign constitutes a widespread and exogenous shock to media choice of label and narrative portrayal of Black individuals. Local market competition increased the elasticity of supply to ideological demand: accelerating label and narrative diffusion where audiences were receptive, but reinforcing inertia where they were resistant. These effects are not explained by editorial ideology or ownership. I then document that local markets exposed to earlier newspaper adoption of “Black” saw faster growth in Black local officeholding. The findings reveal how market incentives shape the diffusion of social and political movements.
@@ -39,19 +39,16 @@ This paper shows that infrastructure providers can reshape online discourse by e
  <img src="/images/paper2/Image3.svg" alt="" style="width: 30%;">
 </p>
 
-<span style="color: orange;"><b>3. The Political Effects of Threats to the Nation: Evidence from the Cuban Missile Crisis</b></span> [New Draft Coming Soon]
-<p style="text-align: justify;">
+
+<p style="font-weight: bold; color: orange;">
+3. The Political Effects of Threats to the Nation: Evidence from the Cuban Missile Crisis</p> [New draft coming soon!] 
 <p style="color: grey; font-style: italic; margin-top: -10px;">
 (joint with <a href="https://sites.google.com/site/colussitom/" style="color: grey; text-decoration: none;">Tommaso Colussi</a>)
-This project examines how voters and policymakers respond to external threats, focusing on the political and military consequences of the 1962 Cuban Missile Crisis. Using novel measures of local media exposure and exogenous variation in threat salience, we estimate the crisis’s impact on electoral participation, partisan support, congressional behavior, and military service.
 </p>
 
-
-<!--<span style="color: orange;"><b>3. The Political Effects of Threats to the Nation: Evidence from the Cuban Missile Crisis</b></span> [Latest Draft](https://www.dropbox.com/scl/fi/krl12nxiah173akyewx3t/CubanMissiles-2.pdf?rlkey=khbsd2arxk901s60eortrqno1&dl=0)
-<p style="color: grey; font-style: italic; margin-top: -10px;">
-(joint with <a href="https://sites.google.com/site/colussitom/" style="color: grey; text-decoration: none;">Tommaso Colussi</a>)
-</p> -->
-
+<p style="text-align: justify;">
+This project examines how voters and policymakers respond to external threats, focusing on the political and military consequences of the 1962 Cuban Missile Crisis. Using novel measures of local media exposure and exogenous variation in threat salience, we estimate the crisis’s impact on electoral participation, partisan support, congressional behavior, and military service.
+</p>
 
 
 
