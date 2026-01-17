@@ -39,14 +39,17 @@ This paper shows that infrastructure providers can reshape online discourse by e
  <img src="/images/paper2/Image3.svg" alt="" style="width: 30%;">
 </p>
 
-<span style="color: orange;"><b>3. The Political Effects of Threats to the Nation: Evidence from the Cuban Missile Crisis</b></span> [Latest Draft](https://www.dropbox.com/scl/fi/krl12nxiah173akyewx3t/CubanMissiles-2.pdf?rlkey=khbsd2arxk901s60eortrqno1&dl=0)
-<p style="color: grey; font-style: italic; margin-top: -10px;">
-(joint with <a href="https://sites.google.com/site/colussitom/" style="color: grey; text-decoration: none;">Tommaso Colussi</a>)
-</p>
-
+<span style="color: orange;"><b>3. The Political Effects of Threats to the Nation: Evidence from the Cuban Missile Crisis</b></span> [New Draft Coming Soon]
 <p style="text-align: justify;">
 This project examines how voters and policymakers respond to external threats, focusing on the political and military consequences of the 1962 Cuban Missile Crisis. Using novel measures of local media exposure and exogenous variation in threat salience, we estimate the crisis’s impact on electoral participation, partisan support, congressional behavior, and military service.
 </p>
+
+
+<!--<span style="color: orange;"><b>3. The Political Effects of Threats to the Nation: Evidence from the Cuban Missile Crisis</b></span> [Latest Draft](https://www.dropbox.com/scl/fi/krl12nxiah173akyewx3t/CubanMissiles-2.pdf?rlkey=khbsd2arxk901s60eortrqno1&dl=0)
+<p style="color: grey; font-style: italic; margin-top: -10px;">
+(joint with <a href="https://sites.google.com/site/colussitom/" style="color: grey; text-decoration: none;">Tommaso Colussi</a>)
+</p> -->
+
 
 
 
