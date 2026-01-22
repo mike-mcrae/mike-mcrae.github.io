@@ -25,7 +25,7 @@ What role do economic incentives play in social change? This paper examines this
 {% include base_path %}
 <h1 style="font-size: 2em; font-weight: bold; color: teal;">Working Papers</h1>
 
-<span style="color: orange;"><b>2. Vertical Governance of Online Speech: Evidence from Google’s Moderation Mandate</b></span> [Latest Draft](https://www.dropbox.com/scl/fi/4syz4glhavu1o07lmroey/0.-Vertical-Governance-of-Online-Speech.pdf?rlkey=wn1w7um4q8xx11ceqdgp9zlt9&dl=0)
+<span style="color: orange;"><b>2. Vertical Governance of Online Speech: Evidence from Google’s Moderation Mandate</b></span> [Latest Draft](https://www.dropbox.com/scl/fi/zoi7tfmuc382d3jfx6gjs/0.-Vertical-Governance-of-Online-Speech.pdf?rlkey=azz7r01rvaqqcb8rs6c8lauxg&dl=0)
 
 <p style="text-align: justify;">
 This paper shows that infrastructure providers can reshape online discourse by enforcing moderation through access-based leverage. Exploiting Google’s 2022 Play Store policy update in a triple-differences design across three alternative social media platforms, I find sharp and persistent declines in threatening content, especially among high-risk users. Politically sensitive narratives such as election denial also fell, highlighting how infrastructure-level enforcement can redefine the boundaries of online speech. I introduce a simple model of vertical governance to explain why distributors impose moderation requirements and why platforms choose either to comply or exit, clarifying the incentive trade-offs that underpin infrastructure-led enforcement.
