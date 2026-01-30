@@ -8,7 +8,12 @@ author_profile: true
 {% include base_path %}
 <h1 style="font-size: 2em; font-weight: bold; color: teal;">Job Market Paper</h1>
 
-<span style="color: orange;"><b>1. Black by Popular Demand: Media Competition and the Evolution of Identity</b></span> [Latest Draft](https://www.dropbox.com/scl/fi/5rc12c27n73s4t93m2rrt/Black-by-Popular-Demand-Media-Competition-and-the-Evolution-of-Identity.pdf?rlkey=v18efnxlps72bwb59faut65qo&dl=0)
+<span style="color: orange;"><b>1. Black by Popular Demand: Media Competition and the Evolution of Identity</b></span>
+<a href="https://www.dropbox.com/scl/fi/5rc12c27n73s4t93m2rrt/Black-by-Popular-Demand-Media-Competition-and-the-Evolution-of-Identity.pdf?rlkey=v18efnxlps72bwb59faut65qo&dl=0"
+   target="_blank"
+   rel="noopener noreferrer">
+   [Latest Draft]
+</a>
 
 
 <p style="text-align: justify;">
