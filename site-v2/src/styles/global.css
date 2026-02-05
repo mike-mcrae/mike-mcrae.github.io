@@ -295,8 +295,8 @@ p {
 .theme-switcher,
 .structure-switcher {
   display: inline-flex;
-  gap: 8px;
-  padding: 6px;
+  gap: 4px;
+  padding: 3px;
   border-radius: 999px;
   background: color-mix(in srgb, var(--card) 80%, transparent);
   border: 1px solid var(--ring);
@@ -305,12 +305,12 @@ p {
 .switcher-group {
   display: flex;
   flex-direction: column;
-  gap: 6px;
+  gap: 4px;
 }
 
 .switcher-label {
   text-transform: uppercase;
-  font-size: 0.65rem;
+  font-size: 0.5rem;
   letter-spacing: 0.2em;
   color: var(--muted);
   text-align: center;
@@ -320,13 +320,13 @@ p {
 .structure-switcher button {
   appearance: none;
   border: none;
-  padding: 6px 12px;
+  padding: 4px 8px;
   border-radius: 999px;
   background: transparent;
   color: var(--muted);
-  font-size: 0.7rem;
+  font-size: 0.55rem;
   text-transform: uppercase;
-  letter-spacing: 0.12em;
+  letter-spacing: 0.1em;
   cursor: pointer;
   transition: all 0.2s ease;
 }
@@ -334,6 +334,7 @@ p {
 .theme-switcher button:hover,
 .structure-switcher button:hover,
 :root[data-theme="editorial"] .theme-switcher button[data-theme-button="editorial"],
+:root[data-theme="simple"] .theme-switcher button[data-theme-button="simple"],
 :root[data-theme="lab"] .theme-switcher button[data-theme-button="lab"],
 :root[data-theme="gallery"] .theme-switcher button[data-theme-button="gallery"],
 :root[data-theme="nightlab"] .theme-switcher button[data-theme-button="nightlab"],
