@@ -25,8 +25,6 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: 20
-          cache: npm
-          cache-dependency-path: site-v2/package-lock.json
 
       - name: Install dependencies
         working-directory: site-v2
