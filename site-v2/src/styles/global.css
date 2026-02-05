@@ -39,6 +39,21 @@
   --font-body: "Space Grotesk", system-ui, -apple-system, sans-serif;
 }
 
+:root[data-theme="simple"] {
+  --ink: #121212;
+  --paper: #ffffff;
+  --accent: #111111;
+  --accent-2: #111111;
+  --accent-3: #1f1f1f;
+  --muted: #4a4a4a;
+  --card: #ffffff;
+  --shadow: rgba(0, 0, 0, 0.08);
+  --ring: rgba(0, 0, 0, 0.12);
+  --bg-gradient: linear-gradient(180deg, #ffffff 0%, #ffffff 100%);
+  --font-display: "Fraunces", serif;
+  --font-body: "Space Grotesk", system-ui, -apple-system, sans-serif;
+}
+
 :root[data-theme="lab"] {
   --ink: #0a1116;
   --paper: #eef5f8;
