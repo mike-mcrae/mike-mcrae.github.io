@@ -1,0 +1,422 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+import ContentHeader from "../components/ContentHeader.astro";
+---
+<BaseLayout title="Projects">
+  <ContentHeader title="Projects" />
+
+  <div class="tab-row" role="tablist" aria-label="Project tabs">
+    <button class="tab" role="tab" aria-selected="true" data-tab="newswires">Southern Newswires</button>
+    <button class="tab" role="tab" aria-selected="false" data-tab="triss">TRISS Researcher Similarity</button>
+  </div>
+
+  <section class="project-panel" data-panel="newswires">
+    <div class="project-hero">
+      <div class="project-copy">
+        <span class="badge">ML Pipeline</span>
+        <h2>Southern Newswires - Extracting Historical Wire Articles</h2>
+        <p>
+          An open-source pipeline that digitises historical newspapers, reconstructs article layouts, and
+          classifies wire services across millions of documents. The output dataset supports large-scale
+          media-history research in the U.S. South (1960-1975).
+        </p>
+        <div class="project-links">
+          <a class="badge" href="https://github.com/mike-mcrae/southern-newswires">GitHub repository</a>
+          <a class="badge" href="http://arxiv.org/abs/2502.11866">Preliminary article</a>
+        </div>
+        <div class="project-list">
+          <div class="project-list-item">
+            <strong>Layout parsing</strong>
+            <span>YOLOv10 detection + rule-based bounding box merges.</span>
+          </div>
+          <div class="project-list-item">
+            <strong>Duplication ID</strong>
+            <span>Near-duplicate detection to collapse multi-paper wire repeats.</span>
+          </div>
+          <div class="project-list-item">
+            <strong>Newswire ID</strong>
+            <span>Fine-tuned BERT models for AP/UPI/NEA attribution.</span>
+          </div>
+          <div class="project-list-item">
+            <strong>LLM correction</strong>
+            <span>Minimal rewriting via Llama 3.2 to repair OCR errors.</span>
+          </div>
+        </div>
+      </div>
+      <div class="project-demo glass">
+        <div class="demo-header">
+          <span>Dataset snapshot</span>
+          <span class="demo-pill">9.57M wires</span>
+        </div>
+        <div class="demo-metrics">
+          <div>
+            <strong>58M</strong>
+            <span>Total articles</span>
+          </div>
+          <div>
+            <strong>9.57M</strong>
+            <span>Wire articles</span>
+          </div>
+          <div>
+            <strong>1960-1975</strong>
+            <span>Coverage</span>
+          </div>
+        </div>
+        <div class="demo-images">
+          <img src="/images/2.ap_upi_nea_proportions.svg" alt="Newswire proportions" />
+          <img src="/images/3.topics_over_time.svg" alt="Topics over time" />
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="project-panel" data-panel="triss" hidden>
+    <div class="project-hero">
+      <div class="project-copy">
+        <span class="badge">Semantic Matcher</span>
+        <h2>TRISS Researcher Similarity</h2>
+        <p>
+          A discovery suite that maps who is working on similar problems inside TRISS. The semantic matcher
+          compares researcher-level abstract embeddings, then surfaces the closest neighbours along with
+          the top publications that explain the overlap.
+        </p>
+        <div class="project-links">
+          <a class="badge" href="https://triss-app.onrender.com/">Semantic matcher</a>
+          <a class="badge" href="https://triss-report.onrender.com">Report app</a>
+        </div>
+        <div class="project-list">
+          <div class="project-list-item">
+            <strong>Similarity engine</strong>
+            <span>Offline cosine similarity over consolidated abstract embeddings.</span>
+          </div>
+          <div class="project-list-item">
+            <strong>Explainability</strong>
+            <span>Top-5 publication matches reveal the shared themes.</span>
+          </div>
+          <div class="project-list-item">
+            <strong>UMAP explorer</strong>
+            <span>Interactive 2D topic maps for TRISS research outputs.</span>
+          </div>
+        </div>
+      </div>
+      <div class="project-demo glass demo-spotlight">
+        <div class="demo-header">
+          <span>Semantic search</span>
+          <span class="demo-pill">Live preview</span>
+        </div>
+        <div class="demo-input">
+          <span class="demo-label">Search by name or email</span>
+          <div class="demo-field">
+            <span class="demo-icon">⌕</span>
+            <span class="typing">Mike McRae</span>
+          </div>
+          <span class="demo-hint">Matching 327 TRISS researchers</span>
+        </div>
+        <div class="demo-results">
+          <div class="demo-result">
+            <div>
+              <strong>Ciara O'Neil</strong>
+              <span>Education Policy</span>
+            </div>
+            <span class="demo-score">92.4%</span>
+          </div>
+          <div class="demo-result">
+            <div>
+              <strong>Tommy Walsh</strong>
+              <span>EdTech & Inclusion</span>
+            </div>
+            <span class="demo-score">89.7%</span>
+          </div>
+          <div class="demo-result">
+            <div>
+              <strong>Sara Byrne</strong>
+              <span>Mathematics Education</span>
+            </div>
+            <span class="demo-score">87.5%</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <script is:inline>
+    const tabs = document.querySelectorAll("[data-tab]");
+    const panels = document.querySelectorAll("[data-panel]");
+    tabs.forEach((tab) => {
+      tab.addEventListener("click", () => {
+        const target = tab.getAttribute("data-tab");
+        tabs.forEach((button) => button.setAttribute("aria-selected", button === tab ? "true" : "false"));
+        panels.forEach((panel) => {
+          panel.hidden = panel.getAttribute("data-panel") !== target;
+        });
+      });
+    });
+  </script>
+
+  <style>
+    .tab-row {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 12px;
+      margin-bottom: 32px;
+    }
+
+    .tab {
+      border: 1px solid var(--ring);
+      background: color-mix(in srgb, var(--card) 80%, transparent);
+      color: var(--muted);
+      padding: 10px 18px;
+      border-radius: 999px;
+      font-size: 0.75rem;
+      letter-spacing: 0.14em;
+      text-transform: uppercase;
+      cursor: pointer;
+      transition: all 0.2s ease;
+    }
+
+    .tab[aria-selected="true"] {
+      color: var(--ink);
+      background: color-mix(in srgb, var(--accent) 18%, transparent);
+      border-color: color-mix(in srgb, var(--accent) 35%, transparent);
+    }
+
+    .project-hero {
+      display: grid;
+      grid-template-columns: minmax(0, 1.1fr) minmax(0, 0.9fr);
+      gap: 32px;
+      align-items: start;
+    }
+
+    .project-copy h2 {
+      margin-top: 12px;
+      margin-bottom: 12px;
+      font-size: 2rem;
+    }
+
+    .project-links {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      margin: 18px 0 24px;
+    }
+
+    .project-list {
+      display: grid;
+      gap: 14px;
+    }
+
+    .project-list-item {
+      display: grid;
+      gap: 4px;
+      padding: 12px 14px;
+      border-radius: 14px;
+      background: color-mix(in srgb, var(--card) 85%, transparent);
+      border: 1px solid var(--ring);
+    }
+
+    .project-list-item strong {
+      font-size: 0.95rem;
+    }
+
+    .project-list-item span {
+      color: var(--muted);
+      font-size: 0.9rem;
+    }
+
+    .project-demo {
+      padding: 22px;
+      border-radius: 20px;
+    }
+
+    .demo-spotlight {
+      background: radial-gradient(circle at top right, color-mix(in srgb, var(--accent) 25%, transparent), transparent 55%);
+      border: 1px solid color-mix(in srgb, var(--accent) 35%, var(--ring));
+      box-shadow: 0 20px 40px rgba(15, 23, 42, 0.18);
+    }
+
+    .demo-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 16px;
+      font-size: 0.85rem;
+      text-transform: uppercase;
+      letter-spacing: 0.16em;
+      color: var(--muted);
+    }
+
+    .demo-pill {
+      padding: 6px 12px;
+      border-radius: 999px;
+      border: 1px solid var(--ring);
+      font-size: 0.7rem;
+    }
+
+    .demo-input {
+      display: grid;
+      gap: 10px;
+      margin-bottom: 18px;
+    }
+
+    .demo-label {
+      color: var(--muted);
+      font-size: 0.85rem;
+    }
+
+    .demo-field {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      border: 1px solid var(--ring);
+      border-radius: 12px;
+      padding: 10px 14px;
+      font-size: 1rem;
+      background: color-mix(in srgb, var(--card) 90%, transparent);
+      min-height: 44px;
+    }
+
+    .demo-icon {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      width: 28px;
+      height: 28px;
+      border-radius: 8px;
+      border: 1px solid var(--ring);
+      color: var(--accent);
+      font-size: 0.9rem;
+      background: color-mix(in srgb, var(--card) 85%, transparent);
+    }
+
+    .demo-hint {
+      color: var(--muted);
+      font-size: 0.8rem;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+    }
+
+    .typing {
+      display: inline-block;
+      white-space: nowrap;
+      overflow: hidden;
+      border-right: 2px solid var(--accent);
+      animation: typing 3.6s steps(12, end) infinite, blink 0.9s step-end infinite;
+      max-width: 0;
+    }
+
+    .demo-results {
+      display: grid;
+      gap: 12px;
+    }
+
+    .demo-result {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 12px 14px;
+      border-radius: 14px;
+      border: 1px solid var(--ring);
+      background: color-mix(in srgb, var(--card) 90%, transparent);
+      opacity: 0;
+      animation: reveal 3.6s ease-in-out infinite;
+    }
+
+    .demo-result:nth-child(2) {
+      animation-delay: 0.2s;
+    }
+
+    .demo-result:nth-child(3) {
+      animation-delay: 0.4s;
+    }
+
+    .demo-result span {
+      color: var(--muted);
+      font-size: 0.85rem;
+    }
+
+    .demo-score {
+      font-weight: 600;
+      color: var(--accent);
+    }
+
+    .demo-metrics {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 12px;
+      margin-bottom: 18px;
+    }
+
+    .demo-metrics div {
+      display: grid;
+      gap: 6px;
+      padding: 12px;
+      border-radius: 14px;
+      border: 1px solid var(--ring);
+      background: color-mix(in srgb, var(--card) 90%, transparent);
+      text-align: center;
+    }
+
+    .demo-metrics strong {
+      font-size: 1.2rem;
+    }
+
+    .demo-images {
+      display: grid;
+      gap: 16px;
+    }
+
+    .demo-images img {
+      width: 100%;
+      border-radius: 14px;
+      border: 1px solid var(--ring);
+      background: #fff;
+      padding: 8px;
+    }
+
+    @keyframes typing {
+      0% {
+        max-width: 0;
+      }
+      40% {
+        max-width: 180px;
+      }
+      80% {
+        max-width: 180px;
+      }
+      100% {
+        max-width: 0;
+      }
+    }
+
+    @keyframes blink {
+      50% {
+        border-color: transparent;
+      }
+    }
+
+    @keyframes reveal {
+      0% {
+        opacity: 0;
+        transform: translateY(6px);
+      }
+      35% {
+        opacity: 1;
+        transform: translateY(0);
+      }
+      80% {
+        opacity: 1;
+      }
+      100% {
+        opacity: 0;
+        transform: translateY(-6px);
+      }
+    }
+
+
+    @media (max-width: 900px) {
+      .project-hero {
+        grid-template-columns: 1fr;
+      }
+    }
+  </style>
+</BaseLayout>

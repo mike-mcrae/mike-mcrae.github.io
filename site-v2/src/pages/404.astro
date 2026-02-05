@@ -1,0 +1,15 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+import ContentHeader from "../components/ContentHeader.astro";
+import { getEntryBySlug } from "astro:content";
+
+const entry = await getEntryBySlug("pages", "404");
+const { Content } = entry ? await entry.render() : { Content: null };
+---
+<BaseLayout title="Page Not Found">
+  <ContentHeader title="Page Not Found" />
+  <article class="prose prose-lg max-w-none">
+    {Content ? <Content /> : <p>Sorry, but the page you were trying to view does not exist.</p>}
+  </article>
+  <a class="badge" href="/">Back to home</a>
+</BaseLayout>

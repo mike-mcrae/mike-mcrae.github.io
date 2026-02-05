@@ -1,0 +1,23 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+import ContentHeader from "../components/ContentHeader.astro";
+import { getCollection } from "astro:content";
+
+export async function getStaticPaths() {
+  const pages = await getCollection("pages");
+  const filtered = pages.filter((page) => page.slug !== "about");
+  return filtered.map((page) => ({
+    params: { page: page.slug },
+    props: { page }
+  }));
+}
+
+const { page } = Astro.props;
+const { Content } = await page.render();
+---
+<BaseLayout title={page.data.title ?? "Page"} description={page.data.description}>
+  <ContentHeader title={page.data.title ?? page.slug} />
+  <article class="prose prose-lg max-w-none">
+    <Content />
+  </article>
+</BaseLayout>

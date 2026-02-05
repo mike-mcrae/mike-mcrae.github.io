@@ -1,0 +1,37 @@
+---
+import { nav, site } from "../config";
+import ThemeSwitcher from "./ThemeSwitcher.astro";
+import StructureSwitcher from "./StructureSwitcher.astro";
+---
+<header class="page-shell">
+  <div class="flex flex-wrap items-center justify-end gap-3" style="margin-bottom: 12px;">
+    <ThemeSwitcher />
+    <StructureSwitcher />
+  </div>
+  <div class="glass" style="border-radius: 28px; padding: 20px 28px;">
+    <div class="flex flex-wrap items-center justify-between gap-4">
+      <div class="flex items-center gap-3">
+        <img
+          src="/images/headshot.png"
+          alt="Mike McRae headshot"
+          width="86"
+          height="86"
+          style="border-radius: 999px; object-fit: cover; border: 2px solid rgba(17, 17, 15, 0.08);"
+        />
+        <div>
+          <a href="/" class="text-2xl font-semibold" style="font-family: Fraunces, serif;">
+            {site.title}
+          </a>
+          <p class="text-sm" style="color: var(--muted); margin: 4px 0 0;">
+            {site.tagline}
+          </p>
+        </div>
+      </div>
+      <nav class="flex flex-wrap gap-3 text-sm">
+        {nav.map((item) => (
+          <a class="badge" href={item.href}>{item.label}</a>
+        ))}
+      </nav>
+    </div>
+  </div>
+</header>

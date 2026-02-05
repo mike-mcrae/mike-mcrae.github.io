@@ -1,0 +1,18 @@
+---
+const themes = [
+  { id: "editorial", label: "Editorial" },
+  { id: "lab", label: "Research Lab" },
+  { id: "gallery", label: "Gallery" },
+  { id: "nightlab", label: "Night Lab" }
+];
+---
+<div class="switcher-group">
+  <span class="switcher-label">Color</span>
+  <div class="theme-switcher" data-theme-switcher>
+  {themes.map((theme) => (
+    <button type="button" data-theme-button={theme.id}>
+      {theme.label}
+    </button>
+  ))}
+  </div>
+</div>

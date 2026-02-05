@@ -1,0 +1,15 @@
+---
+const { title, meta = [] } = Astro.props;
+---
+<header style="margin-bottom: 28px;">
+  <div class="section-title">
+    <h1 class="text-3xl md:text-4xl" style="margin: 0;">{title}</h1>
+  </div>
+  {meta.length > 0 && (
+    <div class="flex flex-wrap gap-3 text-sm" style="color: var(--muted);">
+      {meta.map((item) => (
+        <span>{item}</span>
+      ))}
+    </div>
+  )}
+</header>

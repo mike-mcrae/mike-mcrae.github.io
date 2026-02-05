@@ -1,0 +1,18 @@
+---
+const structures = [
+  { id: "cards", label: "Cards" },
+  { id: "editorial", label: "Editorial" },
+  { id: "strips", label: "Strips" },
+  { id: "overlap", label: "Overlap" }
+];
+---
+<div class="switcher-group">
+  <span class="switcher-label">Style</span>
+  <div class="structure-switcher" data-structure-switcher>
+  {structures.map((structure) => (
+    <button type="button" data-structure-button={structure.id}>
+      {structure.label}
+    </button>
+  ))}
+  </div>
+</div>

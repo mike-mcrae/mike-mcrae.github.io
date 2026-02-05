@@ -1,0 +1,50 @@
+{
+  "$ref": "#/definitions/talks",
+  "definitions": {
+    "talks": {
+      "type": "object",
+      "properties": {
+        "title": {
+          "type": "string"
+        },
+        "date": {
+          "anyOf": [
+            {
+              "type": "string",
+              "format": "date-time"
+            },
+            {
+              "type": "string",
+              "format": "date"
+            },
+            {
+              "type": "integer",
+              "format": "unix-time"
+            }
+          ]
+        },
+        "type": {
+          "type": "string"
+        },
+        "venue": {
+          "type": "string"
+        },
+        "location": {
+          "type": "string"
+        },
+        "permalink": {
+          "type": "string"
+        },
+        "$schema": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "title",
+        "date"
+      ],
+      "additionalProperties": true
+    }
+  },
+  "$schema": "http://json-schema.org/draft-07/schema#"
+}

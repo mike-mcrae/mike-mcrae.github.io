@@ -1,0 +1,120 @@
+---
+import "../styles/global.css";
+import SiteNav from "../components/SiteNav.astro";
+import SiteFooter from "../components/SiteFooter.astro";
+import { site } from "../config";
+
+const { title, description } = Astro.props;
+const pageTitle = title ? `${title} · ${site.title}` : site.title;
+const pageDescription = description ?? site.description;
+---
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>{pageTitle}</title>
+    <meta name="description" content={pageDescription} />
+    <meta name="theme-color" content="#f6f2ec" />
+    <script>
+      const preferred = localStorage.getItem("theme") || "editorial";
+      const structure = localStorage.getItem("structure") || "cards";
+      document.documentElement.dataset.theme = preferred;
+      document.documentElement.dataset.structure = structure;
+    </script>
+  </head>
+  <body>
+    <SiteNav />
+    <main class="page-shell site-main">
+      <slot />
+    </main>
+    <SiteFooter />
+    <script>
+      const root = document.documentElement;
+      const themeSwitcher = document.querySelector("[data-theme-switcher]");
+      const structureSwitcher = document.querySelector("[data-structure-switcher]");
+      if (themeSwitcher) {
+        themeSwitcher.addEventListener("click", (event) => {
+          const target = event.target;
+          if (!(target instanceof HTMLElement)) return;
+          const theme = target.dataset.themeButton;
+          if (!theme) return;
+          root.dataset.theme = theme;
+          localStorage.setItem("theme", theme);
+        });
+      }
+      if (structureSwitcher) {
+        structureSwitcher.addEventListener("click", (event) => {
+          const target = event.target;
+          if (!(target instanceof HTMLElement)) return;
+          const structure = target.dataset.structureButton;
+          if (!structure) return;
+          root.dataset.structure = structure;
+          localStorage.setItem("structure", structure);
+        });
+      }
+      const lightbox = document.createElement("div");
+      lightbox.className = "lightbox";
+      lightbox.setAttribute("role", "dialog");
+      lightbox.setAttribute("aria-modal", "true");
+      lightbox.innerHTML = `
+        <div class="lightbox__backdrop" data-lightbox-close></div>
+        <div class="lightbox__content">
+          <button class="lightbox__close" type="button" aria-label="Close image" data-lightbox-close>Close</button>
+          <img class="lightbox__image" alt="" />
+          <p class="lightbox__caption"></p>
+        </div>
+      `;
+      document.body.appendChild(lightbox);
+
+      const lightboxImage = lightbox.querySelector(".lightbox__image");
+      const lightboxCaption = lightbox.querySelector(".lightbox__caption");
+
+      const openLightbox = (image) => {
+        if (!(image instanceof HTMLImageElement)) return;
+        const fullSrc = image.dataset.full || image.currentSrc || image.src;
+        lightboxImage.src = fullSrc;
+        lightboxImage.alt = image.alt || "Expanded image";
+        lightboxCaption.textContent = image.alt || "";
+        lightbox.classList.add("is-open");
+        document.body.classList.add("lightbox-open");
+      };
+
+      const closeLightbox = () => {
+        lightbox.classList.remove("is-open");
+        document.body.classList.remove("lightbox-open");
+        lightboxImage.src = "";
+      };
+
+      const selectableImages = document.querySelectorAll(
+        ".site-main .prose img, .site-main .project-demo img, .site-main .demo-images img"
+      );
+      selectableImages.forEach((image) => {
+        image.classList.add("lightbox-target");
+        image.setAttribute("role", "button");
+        image.setAttribute("tabindex", "0");
+        image.addEventListener("click", () => openLightbox(image));
+        image.addEventListener("keydown", (event) => {
+          if (event.key === "Enter" || event.key === " ") {
+            event.preventDefault();
+            openLightbox(image);
+          }
+        });
+      });
+
+      lightbox.addEventListener("click", (event) => {
+        const target = event.target;
+        if (!(target instanceof HTMLElement)) return;
+        if (target.hasAttribute("data-lightbox-close")) {
+          closeLightbox();
+        }
+      });
+
+      document.addEventListener("keydown", (event) => {
+        if (event.key === "Escape" && lightbox.classList.contains("is-open")) {
+          closeLightbox();
+        }
+      });
+    </script>
+  </body>
+</html>

@@ -1,0 +1,32 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+import { getEntryBySlug } from "astro:content";
+import { site } from "../config";
+
+const about = await getEntryBySlug("pages", "about");
+const aboutContent = about ? await about.render() : null;
+---
+<BaseLayout title={site.title} description={site.description}>
+  <section class="home-grid grid md:grid-cols-[1.1fr_0.9fr] gap-10 items-start">
+    <div class="glass" style="border-radius: 28px; padding: 32px;">
+      <div class="section-title">
+        <h1 class="text-4xl md:text-5xl" style="margin: 0;">{site.title}</h1>
+      </div>
+      <p style="font-size: 1.1rem; color: var(--muted); margin-top: -12px;">{site.tagline}</p>
+      {aboutContent && (
+        <article class="prose prose-lg max-w-none">
+          <aboutContent.Content />
+        </article>
+      )}
+      <div class="flex flex-wrap gap-3" style="margin-top: 24px;">
+        <a class="badge" href="/research/">Research highlights</a>
+        <a class="badge" href="/projects/">ML projects</a>
+        <a class="badge" href="/cv/">Download CV</a>
+        <a class="badge" href={`mailto:${site.email}`}>Email</a>
+      </div>
+    </div>
+    <div class="glass" style="border-radius: 28px; padding: 28px;">
+      <img src="/images/headshot.png" alt="Mike McRae" style="width: 100%; border-radius: 24px;" />
+    </div>
+  </section>
+</BaseLayout>
