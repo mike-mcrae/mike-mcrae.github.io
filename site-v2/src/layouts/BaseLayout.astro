@@ -55,8 +55,13 @@ const pageDescription = description ?? site.description;
       }
       document.querySelectorAll("a[href]").forEach((link) => {
         if (!(link instanceof HTMLAnchorElement)) return;
-        link.target = "_blank";
-        link.rel = "noopener noreferrer";
+        const href = link.getAttribute("href") || "";
+        if (href.startsWith("#") || href.startsWith("/")) return;
+        const url = new URL(href, window.location.href);
+        if (url.origin !== window.location.origin) {
+          link.target = "_blank";
+          link.rel = "noopener noreferrer";
+        }
       });
       const lightbox = document.createElement("div");
       lightbox.className = "lightbox";
