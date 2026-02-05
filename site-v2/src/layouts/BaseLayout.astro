@@ -53,6 +53,11 @@ const pageDescription = description ?? site.description;
           localStorage.setItem("structure", structure);
         });
       }
+      document.querySelectorAll("a[href]").forEach((link) => {
+        if (!(link instanceof HTMLAnchorElement)) return;
+        link.target = "_blank";
+        link.rel = "noopener noreferrer";
+      });
       const lightbox = document.createElement("div");
       lightbox.className = "lightbox";
       lightbox.setAttribute("role", "dialog");
