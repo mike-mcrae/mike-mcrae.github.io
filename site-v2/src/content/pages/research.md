@@ -58,9 +58,6 @@ This project studies how citizens and political institutions respond to sudden, 
 
 
 
-<h1 style="font-size: 2em; font-weight: bold; color: teal;">Work in Progress</h1>
-### <u>Political Economy & Media</u>
-
 <span style="color: orange;"><b>4. From the Pulpit to the Polls: The Electoral Consequences of Christian Talk Radio</b></span>
 
 <p style="text-align: justify;">
