@@ -17,8 +17,8 @@ const pageDescription = description ?? site.description;
     <meta name="description" content={pageDescription} />
     <meta name="theme-color" content="#f6f2ec" />
     <script>
-      const preferred = localStorage.getItem("theme") || "editorial";
-      const structure = localStorage.getItem("structure") || "cards";
+      const preferred = localStorage.getItem("theme") || "simple";
+      const structure = localStorage.getItem("structure") || "strips";
       document.documentElement.dataset.theme = preferred;
       document.documentElement.dataset.structure = structure;
     </script>
