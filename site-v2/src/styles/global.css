@@ -147,6 +147,10 @@ p {
   padding: 48px 24px 80px;
 }
 
+.site-main {
+  padding-top: 24px;
+}
+
 .glass {
   background: color-mix(in srgb, var(--card) 85%, transparent);
   border: 1px solid var(--ring);
