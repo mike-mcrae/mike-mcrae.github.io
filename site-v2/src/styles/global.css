@@ -214,6 +214,8 @@ p {
 .prose img {
   border-radius: 16px;
   box-shadow: 0 12px 24px var(--shadow);
+  max-width: 100%;
+  height: auto;
 }
 
 .lightbox-target {
@@ -436,5 +438,38 @@ p {
   .structure-switcher {
     flex-wrap: wrap;
     justify-content: center;
+  }
+
+  .home-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .card {
+    padding: 18px;
+  }
+
+  .badge {
+    font-size: 0.6rem;
+    padding: 5px 12px;
+  }
+
+  .prose p[style*="display: flex"] {
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+  }
+
+  .prose p[style*="display: flex"] img {
+    width: 100% !important;
+  }
+}
+
+@media (max-width: 560px) {
+  .section-title h1 {
+    font-size: 2rem;
+  }
+
+  .demo-metrics {
+    grid-template-columns: 1fr;
   }
 }
