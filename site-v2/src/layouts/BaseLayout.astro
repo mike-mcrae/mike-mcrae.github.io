@@ -125,6 +125,16 @@ const pageDescription = description ?? site.description;
           closeLightbox();
         }
       });
+
+      const navToggle = document.querySelector(".nav-toggle");
+      const navMenu = document.querySelector(".nav-links");
+      if (navToggle && navMenu) {
+        navToggle.addEventListener("click", () => {
+          const expanded = navToggle.getAttribute("aria-expanded") === "true";
+          navToggle.setAttribute("aria-expanded", expanded ? "false" : "true");
+          navMenu.classList.toggle("is-open");
+        });
+      }
     </script>
   </body>
 </html>

@@ -8,9 +8,9 @@ import StructureSwitcher from "./StructureSwitcher.astro";
     <ThemeSwitcher />
     <StructureSwitcher />
   </div>
-  <div class="glass" style="border-radius: 28px; padding: 20px 28px;">
-    <div class="flex flex-wrap items-center justify-between gap-4">
-      <div class="flex items-center gap-3">
+  <div class="glass site-nav" style="border-radius: 28px; padding: 20px 28px;">
+    <div class="nav-grid">
+      <div class="nav-brand">
         <img
           src="/images/headshot.png"
           alt="Mike McRae headshot"
@@ -27,7 +27,12 @@ import StructureSwitcher from "./StructureSwitcher.astro";
           </p>
         </div>
       </div>
-      <nav class="flex flex-wrap gap-3 text-sm">
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-menu" aria-label="Open menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+      <nav id="site-menu" class="nav-links">
         {nav.map((item) => (
           <a class="badge" href={item.href}>{item.label}</a>
         ))}
