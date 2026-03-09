@@ -183,46 +183,6 @@ declare module 'astro:content' {
   rendered?: RenderedContent;
   filePath?: string;
 }>;
-"portfolio": Record<string, {
-  id: string;
-  body?: string;
-  collection: "portfolio";
-  data: any;
-  rendered?: RenderedContent;
-  filePath?: string;
-}>;
-"posts": Record<string, {
-  id: string;
-  body?: string;
-  collection: "posts";
-  data: any;
-  rendered?: RenderedContent;
-  filePath?: string;
-}>;
-"publications": Record<string, {
-  id: string;
-  body?: string;
-  collection: "publications";
-  data: any;
-  rendered?: RenderedContent;
-  filePath?: string;
-}>;
-"talks": Record<string, {
-  id: string;
-  body?: string;
-  collection: "talks";
-  data: any;
-  rendered?: RenderedContent;
-  filePath?: string;
-}>;
-"teaching": Record<string, {
-  id: string;
-  body?: string;
-  collection: "teaching";
-  data: any;
-  rendered?: RenderedContent;
-  filePath?: string;
-}>;
 
 	};
 
