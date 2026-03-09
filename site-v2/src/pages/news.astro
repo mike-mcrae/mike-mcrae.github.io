@@ -9,6 +9,7 @@ type UpcomingPresentation = {
   startDate: string;
   endDate?: string;
   link?: string;
+  note?: string;
 };
 
 type PastPresentation = {
@@ -21,6 +22,14 @@ type PastPresentation = {
 };
 
 const upcomingPresentations: UpcomingPresentation[] = [
+  {
+    event: "Media, Identity and Norms Workshop",
+    location: "Ecole normale superieure de Lyon and CERGIC, Lyon, France",
+    paper: "Black by Popular Demand: Media Competition and the Evolution of Identity",
+    startDate: "2025-05-26",
+    endDate: "2025-05-27",
+    note: "Invited presentation"
+  },
   {
     event: "Irish Economic Association Annual Conference 2026",
     location: "Location listed on conference page",
@@ -39,14 +48,6 @@ const upcomingPresentations: UpcomingPresentation[] = [
 ];
 
 const pastPresentations: PastPresentation[] = [
-  {
-    event: "Media, Identity and Norms Workshop",
-    dateLabel: "May 26-27, 2025",
-    sortYear: 2025,
-    location: "Ecole normale superieure de Lyon and CERGIC, Lyon, France",
-    paper: "Black by Popular Demand: Media Competition and the Evolution of Identity",
-    note: "Invited presentation"
-  },
   { event: "2nd UniCatt Political Economy Workshop (Milan, Italy)", dateLabel: "2025", sortYear: 2025 },
   { event: "4th Zurich Workshop in AI+Economics (Zurich, Switzerland)", dateLabel: "2025", sortYear: 2025 },
   { event: "Natural Language in Economics - UPF and PSE (Online)", dateLabel: "2025", sortYear: 2025 },
@@ -117,6 +118,7 @@ const formatRange = (startDate: string, endDate?: string) => {
               {item.link && (
                 <a class="badge" href={item.link}>Conference link</a>
               )}
+              {item.note && <span>{item.note}</span>}
             </div>
           </article>
         </li>
