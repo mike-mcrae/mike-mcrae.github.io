@@ -13,8 +13,11 @@ type UpcomingPresentation = {
 
 type PastPresentation = {
   event: string;
-  yearLabel: string;
+  dateLabel: string;
   sortYear: number;
+  location?: string;
+  paper?: string;
+  note?: string;
 };
 
 const upcomingPresentations: UpcomingPresentation[] = [
@@ -36,17 +39,25 @@ const upcomingPresentations: UpcomingPresentation[] = [
 ];
 
 const pastPresentations: PastPresentation[] = [
-  { event: "2nd UniCatt Political Economy Workshop (Milan, Italy)", yearLabel: "2025", sortYear: 2025 },
-  { event: "4th Zurich Workshop in AI+Economics (Zurich, Switzerland)", yearLabel: "2025", sortYear: 2025 },
-  { event: "Natural Language in Economics - UPF and PSE (Online)", yearLabel: "2025", sortYear: 2025 },
-  { event: "10th CEPR (Monash-Paris-Warwick-Zurich) Text-as-Data Workshop (Online)", yearLabel: "2025", sortYear: 2025 },
-  { event: "29th Annual SIOE Conference (Sydney, Australia)", yearLabel: "2025", sortYear: 2025 },
-  { event: "3rd IFN Workshop in Economic History (Uppsala, Sweden)", yearLabel: "2025", sortYear: 2025 },
-  { event: "1st Text-as-Data in Economics Workshop (Lancaster University)", yearLabel: "2025", sortYear: 2025 },
-  { event: "9th CEPR (Monash-Paris-Warwick-Zurich) Text-as-Data Workshop (Online)", yearLabel: "2025", sortYear: 2025 },
-  { event: "Irish Economics Association Annual Conference", yearLabel: "2022, 2023, 2025", sortYear: 2025 },
-  { event: "Irish Postgraduate and Early Career Economics Workshop", yearLabel: "2023", sortYear: 2023 },
-  { event: "Royal Economics Society Annual Conference", yearLabel: "2023", sortYear: 2023 }
+  {
+    event: "Media, Identity and Norms Workshop",
+    dateLabel: "May 26-27, 2025",
+    sortYear: 2025,
+    location: "Ecole normale superieure de Lyon and CERGIC, Lyon, France",
+    paper: "Black by Popular Demand: Media Competition and the Evolution of Identity",
+    note: "Invited presentation"
+  },
+  { event: "2nd UniCatt Political Economy Workshop (Milan, Italy)", dateLabel: "2025", sortYear: 2025 },
+  { event: "4th Zurich Workshop in AI+Economics (Zurich, Switzerland)", dateLabel: "2025", sortYear: 2025 },
+  { event: "Natural Language in Economics - UPF and PSE (Online)", dateLabel: "2025", sortYear: 2025 },
+  { event: "10th CEPR (Monash-Paris-Warwick-Zurich) Text-as-Data Workshop (Online)", dateLabel: "2025", sortYear: 2025 },
+  { event: "29th Annual SIOE Conference (Sydney, Australia)", dateLabel: "2025", sortYear: 2025 },
+  { event: "3rd IFN Workshop in Economic History (Uppsala, Sweden)", dateLabel: "2025", sortYear: 2025 },
+  { event: "1st Text-as-Data in Economics Workshop (Lancaster University)", dateLabel: "2025", sortYear: 2025 },
+  { event: "9th CEPR (Monash-Paris-Warwick-Zurich) Text-as-Data Workshop (Online)", dateLabel: "2025", sortYear: 2025 },
+  { event: "Irish Economics Association Annual Conference", dateLabel: "2022, 2023, 2025", sortYear: 2025 },
+  { event: "Irish Postgraduate and Early Career Economics Workshop", dateLabel: "2023", sortYear: 2023 },
+  { event: "Royal Economics Society Annual Conference", dateLabel: "2023", sortYear: 2023 }
 ];
 
 const sortedUpcoming = [...upcomingPresentations].sort((a, b) => {
@@ -86,14 +97,11 @@ const formatRange = (startDate: string, endDate?: string) => {
 };
 ---
 <BaseLayout title="News" description="Upcoming and past presentation timeline">
-  <ContentHeader title="News" meta={["Upcoming presentations first", "Past presentations from CV"]} />
+  <ContentHeader title="News" />
 
   <section class="glass news-panel">
     <div class="news-heading">
       <h2>Upcoming Presentations</h2>
-      <p>
-        Next confirmed talks and conferences, ordered by what comes next.
-      </p>
     </div>
 
     <ol class="timeline">
@@ -120,7 +128,7 @@ const formatRange = (startDate: string, endDate?: string) => {
     <div class="news-heading">
       <h2>Past Presentations</h2>
       <p>
-        Prior conferences, seminars, and workshops listed in your CV.
+        Prior conferences, seminars, workshops, and invited talks.
       </p>
     </div>
 
@@ -129,8 +137,15 @@ const formatRange = (startDate: string, endDate?: string) => {
         <li class="timeline-item timeline-item-past">
           <div class="timeline-dot" aria-hidden="true"></div>
           <article class="timeline-card">
-            <p class="timeline-date">{item.yearLabel}</p>
+            <p class="timeline-date">{item.dateLabel}</p>
             <h3>{item.event}</h3>
+            {item.location && <p class="timeline-location">{item.location}</p>}
+            {item.paper && <p class="timeline-paper">{item.paper}</p>}
+            {item.note && (
+              <div class="timeline-meta">
+                <span>{item.note}</span>
+              </div>
+            )}
           </article>
         </li>
       ))}
