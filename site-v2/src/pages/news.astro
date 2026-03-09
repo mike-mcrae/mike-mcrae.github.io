@@ -1,0 +1,258 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+import ContentHeader from "../components/ContentHeader.astro";
+
+type UpcomingPresentation = {
+  event: string;
+  location: string;
+  paper: string;
+  startDate: string;
+  endDate?: string;
+  link?: string;
+};
+
+type PastPresentation = {
+  event: string;
+  yearLabel: string;
+  sortYear: number;
+};
+
+const upcomingPresentations: UpcomingPresentation[] = [
+  {
+    event: "Irish Economic Association Annual Conference 2026",
+    location: "Location listed on conference page",
+    paper: "Vertical Governance of Online Speech: Evidence from Google's Moderation Mandate",
+    startDate: "2026-05-07",
+    endDate: "2026-05-08",
+    link: "https://iea2026.exordo.com"
+  },
+  {
+    event: "2026 Conference of the Society for Institutional & Organizational Economics (SIOE)",
+    location: "INSEAD, Fontainebleau, France",
+    paper: "Black by Popular Demand: Media Competition and the Evolution of Identity",
+    startDate: "2026-07-13",
+    endDate: "2026-07-15"
+  }
+];
+
+const pastPresentations: PastPresentation[] = [
+  { event: "2nd UniCatt Political Economy Workshop (Milan, Italy)", yearLabel: "2025", sortYear: 2025 },
+  { event: "4th Zurich Workshop in AI+Economics (Zurich, Switzerland)", yearLabel: "2025", sortYear: 2025 },
+  { event: "Natural Language in Economics - UPF and PSE (Online)", yearLabel: "2025", sortYear: 2025 },
+  { event: "10th CEPR (Monash-Paris-Warwick-Zurich) Text-as-Data Workshop (Online)", yearLabel: "2025", sortYear: 2025 },
+  { event: "29th Annual SIOE Conference (Sydney, Australia)", yearLabel: "2025", sortYear: 2025 },
+  { event: "3rd IFN Workshop in Economic History (Uppsala, Sweden)", yearLabel: "2025", sortYear: 2025 },
+  { event: "1st Text-as-Data in Economics Workshop (Lancaster University)", yearLabel: "2025", sortYear: 2025 },
+  { event: "9th CEPR (Monash-Paris-Warwick-Zurich) Text-as-Data Workshop (Online)", yearLabel: "2025", sortYear: 2025 },
+  { event: "Irish Economics Association Annual Conference", yearLabel: "2022, 2023, 2025", sortYear: 2025 },
+  { event: "Irish Postgraduate and Early Career Economics Workshop", yearLabel: "2023", sortYear: 2023 },
+  { event: "Royal Economics Society Annual Conference", yearLabel: "2023", sortYear: 2023 }
+];
+
+const sortedUpcoming = [...upcomingPresentations].sort((a, b) => {
+  return new Date(a.startDate).getTime() - new Date(b.startDate).getTime();
+});
+
+const sortedPast = [...pastPresentations].sort((a, b) => {
+  if (b.sortYear !== a.sortYear) {
+    return b.sortYear - a.sortYear;
+  }
+  return a.event.localeCompare(b.event);
+});
+
+const dateFormatter = new Intl.DateTimeFormat("en-US", {
+  month: "short",
+  day: "numeric",
+  year: "numeric"
+});
+
+const formatRange = (startDate: string, endDate?: string) => {
+  const start = new Date(`${startDate}T00:00:00`);
+  if (!endDate || endDate === startDate) {
+    return dateFormatter.format(start);
+  }
+
+  const end = new Date(`${endDate}T00:00:00`);
+
+  if (
+    start.getFullYear() === end.getFullYear() &&
+    start.getMonth() === end.getMonth()
+  ) {
+    const month = new Intl.DateTimeFormat("en-US", { month: "short" }).format(start);
+    return `${month} ${start.getDate()}-${end.getDate()}, ${start.getFullYear()}`;
+  }
+
+  return `${dateFormatter.format(start)} - ${dateFormatter.format(end)}`;
+};
+---
+<BaseLayout title="News" description="Upcoming and past presentation timeline">
+  <ContentHeader title="News" meta={["Upcoming presentations first", "Past presentations from CV"]} />
+
+  <section class="glass news-panel">
+    <div class="news-heading">
+      <h2>Upcoming Presentations</h2>
+      <p>
+        Next confirmed talks and conferences, ordered by what comes next.
+      </p>
+    </div>
+
+    <ol class="timeline">
+      {sortedUpcoming.map((item) => (
+        <li class="timeline-item timeline-item-upcoming">
+          <div class="timeline-dot" aria-hidden="true"></div>
+          <article class="timeline-card">
+            <p class="timeline-date">{formatRange(item.startDate, item.endDate)}</p>
+            <h3>{item.event}</h3>
+            <p class="timeline-location">{item.location}</p>
+            <p class="timeline-paper">{item.paper}</p>
+            <div class="timeline-meta">
+              {item.link && (
+                <a class="badge" href={item.link}>Conference link</a>
+              )}
+            </div>
+          </article>
+        </li>
+      ))}
+    </ol>
+  </section>
+
+  <section class="glass news-panel" style="margin-top: 24px;">
+    <div class="news-heading">
+      <h2>Past Presentations</h2>
+      <p>
+        Prior conferences, seminars, and workshops listed in your CV.
+      </p>
+    </div>
+
+    <ol class="timeline">
+      {sortedPast.map((item) => (
+        <li class="timeline-item timeline-item-past">
+          <div class="timeline-dot" aria-hidden="true"></div>
+          <article class="timeline-card">
+            <p class="timeline-date">{item.yearLabel}</p>
+            <h3>{item.event}</h3>
+          </article>
+        </li>
+      ))}
+    </ol>
+  </section>
+
+  <style>
+    .news-panel {
+      border-radius: 24px;
+      padding: 28px;
+    }
+
+    .news-heading h2 {
+      margin: 0;
+      font-size: 1.6rem;
+    }
+
+    .news-heading p {
+      margin: 10px 0 0;
+      color: var(--muted);
+      max-width: 58ch;
+    }
+
+    .timeline {
+      list-style: none;
+      margin: 24px 0 0;
+      padding: 0;
+      display: grid;
+      gap: 16px;
+      position: relative;
+    }
+
+    .timeline::before {
+      content: "";
+      position: absolute;
+      left: 11px;
+      top: 4px;
+      bottom: 4px;
+      width: 2px;
+      background: color-mix(in srgb, var(--accent) 35%, transparent);
+    }
+
+    .timeline-item {
+      display: grid;
+      grid-template-columns: 24px minmax(0, 1fr);
+      gap: 14px;
+      align-items: start;
+    }
+
+    .timeline-dot {
+      width: 14px;
+      height: 14px;
+      border-radius: 999px;
+      margin-top: 8px;
+      border: 2px solid color-mix(in srgb, var(--accent) 55%, #fff 45%);
+      background: var(--card);
+      box-shadow: 0 0 0 3px color-mix(in srgb, var(--card) 75%, transparent);
+      z-index: 1;
+    }
+
+    .timeline-item-upcoming .timeline-dot {
+      background: color-mix(in srgb, var(--accent) 30%, var(--card));
+    }
+
+    .timeline-item-past .timeline-dot {
+      border-color: color-mix(in srgb, var(--accent-2) 45%, #fff 55%);
+    }
+
+    .timeline-card {
+      border: 1px solid var(--ring);
+      background: color-mix(in srgb, var(--card) 88%, transparent);
+      border-radius: 16px;
+      padding: 16px;
+      box-shadow: 0 10px 20px var(--shadow);
+    }
+
+    .timeline-date {
+      margin: 0 0 8px;
+      font-size: 0.8rem;
+      text-transform: uppercase;
+      letter-spacing: 0.12em;
+      color: var(--muted);
+    }
+
+    .timeline-card h3 {
+      margin: 0;
+      font-size: 1.1rem;
+      line-height: 1.35;
+    }
+
+    .timeline-location {
+      margin: 8px 0 0;
+      font-size: 0.92rem;
+      color: var(--accent-3);
+    }
+
+    .timeline-paper {
+      margin: 8px 0 0;
+      color: var(--muted);
+      font-style: italic;
+    }
+
+    .timeline-meta {
+      margin-top: 12px;
+      display: flex;
+      gap: 10px;
+      flex-wrap: wrap;
+      align-items: center;
+      font-size: 0.78rem;
+      color: var(--muted);
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+    }
+
+    @media (max-width: 720px) {
+      .news-panel {
+        padding: 20px;
+      }
+
+      .timeline-card {
+        padding: 14px;
+      }
+    }
+  </style>
+</BaseLayout>
